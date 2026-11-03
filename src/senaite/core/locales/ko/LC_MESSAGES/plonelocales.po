@@ -1,0 +1,165 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plonelocales\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Domain: plonelocales\n"
+"Language-Code: ko\n"
+"Language-Name: Korean\n"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_apr"
+msgstr "4월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_apr_abbr"
+msgstr "4월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_aug"
+msgstr "8월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_aug_abbr"
+msgstr "8월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_dec"
+msgstr "12월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_dec_abbr"
+msgstr "12월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_feb"
+msgstr "2월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_feb_abbr"
+msgstr "2월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_jan"
+msgstr "1월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_jan_abbr"
+msgstr "1월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_jul"
+msgstr "7월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_jul_abbr"
+msgstr "7월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_jun"
+msgstr "6월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_jun_abbr"
+msgstr "6월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_mar"
+msgstr "3월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_mar_abbr"
+msgstr "3월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_may"
+msgstr "5월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_may_abbr"
+msgstr "5월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_nov"
+msgstr "11월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_nov_abbr"
+msgstr "11월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_oct"
+msgstr "10월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_oct_abbr"
+msgstr "10월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_sep"
+msgstr "9월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "month_sep_abbr"
+msgstr "9월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "weekday_fri"
+msgstr "금요일"
+
+#. Missing from plone.app.locales ko catalog
+msgid "weekday_fri_abbr"
+msgstr "금"
+
+#. Missing from plone.app.locales ko catalog
+msgid "weekday_mon"
+msgstr "월요일"
+
+#. Missing from plone.app.locales ko catalog
+msgid "weekday_mon_abbr"
+msgstr "월"
+
+#. Missing from plone.app.locales ko catalog
+msgid "weekday_sat"
+msgstr "토요일"
+
+#. Missing from plone.app.locales ko catalog
+msgid "weekday_sat_abbr"
+msgstr "토"
+
+#. Missing from plone.app.locales ko catalog
+msgid "weekday_sun"
+msgstr "일요일"
+
+#. Missing from plone.app.locales ko catalog
+msgid "weekday_sun_abbr"
+msgstr "일"
+
+#. Missing from plone.app.locales ko catalog
+msgid "weekday_thu"
+msgstr "목요일"
+
+#. Missing from plone.app.locales ko catalog
+msgid "weekday_thu_abbr"
+msgstr "목"
+
+#. Missing from plone.app.locales ko catalog
+msgid "weekday_tue"
+msgstr "화요일"
+
+#. Missing from plone.app.locales ko catalog
+msgid "weekday_tue_abbr"
+msgstr "화"
+
+#. Missing from plone.app.locales ko catalog
+msgid "weekday_wed"
+msgstr "수요일"
+
+#. Missing from plone.app.locales ko catalog
+msgid "weekday_wed_abbr"
+msgstr "수"

@@ -601,7 +601,9 @@ class SamplesView(ListingView):
             title = t(_("Filter samples by this analysis"))
             css = "analysis-keyword-filter"
             style = "text-decoration:none"
-        title = html_escape(title, quote=True)
+        # translate() returns UTF-8 encoded bytes, which can not be mixed
+        # with the unicode template below for non-ASCII languages
+        title = html_escape(api.safe_unicode(title), quote=True)
         return (
             u'<a href="{href}" class="{css}" '
             u'title="{title}" style="{style}">'

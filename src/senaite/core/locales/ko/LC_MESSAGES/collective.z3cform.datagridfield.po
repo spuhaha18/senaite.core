@@ -1,0 +1,1050 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: collective.z3cform.datagridfield\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Domain: collective.z3cform.datagridfield\n"
+"Language-Code: ko\n"
+"Language-Name: Korean\n"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "AR Template"
+msgstr "시료 템플릿"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "AR Templates"
+msgstr "시료 템플릿"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "ARReport"
+msgstr "결과 보고서"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "ARTemplate"
+msgstr "시료 템플릿"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "ARTemplates"
+msgstr "시료 템플릿"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Accounting"
+msgstr "회계"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Actions"
+msgstr "작업"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Add row"
+msgstr "행 추가"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Add-on Configuration"
+msgstr "애드온 구성"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Add-ons"
+msgstr "애드온"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Additional Values"
+msgstr "추가 값"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Advanced"
+msgstr "고급"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Analyses"
+msgstr "분석"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Analysis"
+msgstr "분석"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Analysis Categories"
+msgstr "분석 분류"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Analysis Profiles"
+msgstr "분석 프로파일"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Analysis Service"
+msgstr "분석 서비스"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Analysis Services"
+msgstr "분석 서비스"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Analysis Specification"
+msgstr "분석 규격"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Analysis Specifications"
+msgstr "분석 규격"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "AnalysisCategories"
+msgstr "분석 분류"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "AnalysisCategory"
+msgstr "분석 분류"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "AnalysisProfile"
+msgstr "분석 프로파일"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "AnalysisProfiles"
+msgstr "분석 프로파일"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "AnalysisRequest"
+msgstr "시료"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "AnalysisService"
+msgstr "분석 서비스"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "AnalysisServices"
+msgstr "분석 서비스"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "AnalysisSpec"
+msgstr "분석 규격"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "AnalysisSpecs"
+msgstr "분석 규격"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Analyst"
+msgstr "분석자"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Appearance"
+msgstr "화면 표시"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Attachment"
+msgstr "첨부파일"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Attachment Type"
+msgstr "첨부파일 유형"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Attachment Types"
+msgstr "첨부파일 유형"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "AttachmentType"
+msgstr "첨부파일 유형"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "AttachmentTypes"
+msgstr "첨부파일 유형"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Attachments"
+msgstr "첨부파일"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Audit Log"
+msgstr "감사 로그"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "AuditLog"
+msgstr "감사 로그"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "AutoImportLog"
+msgstr "자동 가져오기 로그"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Batch"
+msgstr "배치"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Batch Label"
+msgstr "배치 라벨"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Batch Labels"
+msgstr "배치 라벨"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "BatchFolder"
+msgstr "배치 폴더"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "BatchLabel"
+msgstr "배치 라벨"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "BatchLabels"
+msgstr "배치 라벨"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Batches"
+msgstr "배치"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Browse the Docs"
+msgstr "문서 보기"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Browse the code on GitHub"
+msgstr "GitHub에서 코드 보기"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Calculation"
+msgstr "계산식"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Calculations"
+msgstr "계산식"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Calibration Certificate"
+msgstr "교정 인증서"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Cancel"
+msgstr "취소"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Captured"
+msgstr "입력됨"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Client"
+msgstr "고객사"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "ClientFolder"
+msgstr "고객사 폴더"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Clients"
+msgstr "고객사"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Collection"
+msgstr "컬렉션"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Configuration Registry"
+msgstr "구성 레지스트리"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Configure Table Columns"
+msgstr "테이블 열 구성"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Congratulations! You have successfully installed Plone."
+msgstr "축하합니다! Plone이 성공적으로 설치되었습니다."
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Contact"
+msgstr "담당자"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Contacts"
+msgstr "담당자"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Container Type"
+msgstr "용기 유형"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Container Types"
+msgstr "용기 유형"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "ContainerType"
+msgstr "용기 유형"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "ContainerTypes"
+msgstr "용기 유형"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Content"
+msgstr "콘텐츠"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Content Rules"
+msgstr "콘텐츠 규칙"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "DIN A3 (297 x 420mm)"
+msgstr "DIN A3 (297 x 420mm)"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "DIN A4 (210 x 297mm)"
+msgstr "DIN A4 (210 x 297mm)"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "DIN A5 (148 x 210mm)"
+msgstr "DIN A5 (148 x 210mm)"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Date Created"
+msgstr "생성일"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Date and Time"
+msgstr "날짜 및 시간"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Days:"
+msgstr "일:"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Default"
+msgstr "기본값"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Delete row"
+msgstr "행 삭제"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Department"
+msgstr "부서"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Departments"
+msgstr "부서"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Display Columns"
+msgstr "표시할 열"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Drag to reorder"
+msgstr "드래그하여 순서 변경"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Due Date"
+msgstr "마감일"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Duplicate Analysis"
+msgstr "중복 분석"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "DuplicateAnalysis"
+msgstr "중복 시료 분석"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Dynamic Analysis Specification"
+msgstr "동적 분석 규격"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Dynamic Analysis Specifications"
+msgstr "동적 분석 규격"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "DynamicAnalysisSpec"
+msgstr "동적 분석 규격"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "DynamicAnalysisSpecs"
+msgstr "동적 분석 규격"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Edit"
+msgstr "편집"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Email"
+msgstr "이메일"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Errors"
+msgstr "오류"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "General"
+msgstr "일반"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "HTML Filtering"
+msgstr "HTML 필터링"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Hidden"
+msgstr "숨김"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Id server"
+msgstr "ID 서버"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid ""
+"If you are certain you have the correct web address but are encountering an "
+"error, please contact the"
+msgstr "웹 주소가 올바른데도 오류가 발생한다면 다음으로 문의하십시오:"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Impress Controlpanel"
+msgstr "Impress 제어판"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Instrument"
+msgstr "기기"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Instrument Calibration"
+msgstr "기기 교정"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Instrument Location"
+msgstr "기기 위치"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Instrument Locations"
+msgstr "기기 위치"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Instrument Scheduled Task"
+msgstr "기기 예약 작업"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Instrument Types"
+msgstr "기기 유형"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Instrument Validation"
+msgstr "기기 밸리데이션"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "InstrumentCalibration"
+msgstr "기기 교정"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "InstrumentCertification"
+msgstr "기기 인증서"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "InstrumentLocation"
+msgstr "기기 위치"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "InstrumentLocations"
+msgstr "기기 위치"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "InstrumentMaintenanceTask"
+msgstr "기기 유지보수 작업"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "InstrumentScheduledTask"
+msgstr "기기 예약 작업"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "InstrumentType"
+msgstr "기기 유형"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "InstrumentTypes"
+msgstr "기기 유형"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "InstrumentValidation"
+msgstr "기기 밸리데이션"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Instruments"
+msgstr "기기"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Interpretation Template"
+msgstr "해석 템플릿"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Interpretation Templates"
+msgstr "해석 템플릿"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "InterpretationTemplate"
+msgstr "해석 템플릿"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "InterpretationTemplates"
+msgstr "해석 템플릿"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Invoice"
+msgstr "청구서"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Lab Contact"
+msgstr "실험실 담당자"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Lab Contacts"
+msgstr "실험실 담당자"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Lab Departments"
+msgstr "실험실 부서"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Lab Product"
+msgstr "실험실 소모품"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Lab Products"
+msgstr "실험실 소모품"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "LabContact"
+msgstr "실험실 담당자"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "LabContacts"
+msgstr "실험실 담당자"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "LabProduct"
+msgstr "실험실 소모품"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "LabProducts"
+msgstr "실험실 소모품"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Label"
+msgstr "라벨"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Labels"
+msgstr "라벨"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Laboratory"
+msgstr "실험실"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Landscape"
+msgstr "가로"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Language"
+msgstr "언어"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Large Sticker"
+msgstr "대형 스티커"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Legacy Setup"
+msgstr "레거시 설정"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Mail"
+msgstr "메일"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Maintenance"
+msgstr "유지보수"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Management Interface"
+msgstr "관리 인터페이스"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Manufacturer"
+msgstr "제조사"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Manufacturers"
+msgstr "제조사"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Markup"
+msgstr "마크업"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Method"
+msgstr "시험법"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Methods"
+msgstr "시험법"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Move down"
+msgstr "아래로 이동"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Move up"
+msgstr "위로 이동"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Multifile"
+msgstr "다중 파일"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "No value"
+msgstr "값 없음"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Notifications"
+msgstr "알림"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Portrait"
+msgstr "세로"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Position"
+msgstr "위치"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Pricelist"
+msgstr "가격표"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Pricelists"
+msgstr "가격표"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Reference Analysis"
+msgstr "표준 분석"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Reference Definition"
+msgstr "표준 정의"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Reference Definitions"
+msgstr "표준 정의"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Reference Sample"
+msgstr "표준 시료"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Reference Samples"
+msgstr "표준 시료"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "ReferenceAnalysis"
+msgstr "표준 시료 분석"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "ReferenceDefinition"
+msgstr "표준 정의"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "ReferenceDefinitions"
+msgstr "표준 정의"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "ReferenceSample"
+msgstr "표준 시료"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "ReferenceSamplesFolder"
+msgstr "표준 시료 폴더"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Reject Analysis"
+msgstr "분석 반려"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "RejectAnalysis"
+msgstr "반려된 분석"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Remarks"
+msgstr "비고"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Reset column visibility and order to the defaults"
+msgstr "열 표시 여부와 순서를 기본값으로 초기화"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Result"
+msgstr "결과"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Results Report"
+msgstr "결과 보고서"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Results reports"
+msgstr "결과 보고서"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "ResultsReport"
+msgstr "결과 보고서"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Retested"
+msgstr "재시험됨"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SENAITE Setup"
+msgstr "SENAITE 설정"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Sample"
+msgstr "시료"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Sample Condition"
+msgstr "시료 상태"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Sample Condition required"
+msgstr "시료 상태 필수"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Sample Conditions"
+msgstr "시료 상태"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Sample Container"
+msgstr "시료 용기"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Sample Containers"
+msgstr "시료 용기"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Sample Matrices"
+msgstr "시료 매트릭스"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Sample Matrix"
+msgstr "시료 매트릭스"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Sample Point"
+msgstr "채취 지점"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Sample Points"
+msgstr "채취 지점"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Sample Preservation"
+msgstr "시료 보존 방법"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Sample Preservations"
+msgstr "시료 보존 방법"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Sample Templates"
+msgstr "시료 템플릿"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Sample Types"
+msgstr "시료 유형"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SampleCondition"
+msgstr "시료 상태"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SampleConditions"
+msgstr "시료 상태"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SampleContainer"
+msgstr "시료 용기"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SampleContainers"
+msgstr "시료 용기"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SampleMatrices"
+msgstr "시료 매트릭스"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SampleMatrix"
+msgstr "시료 매트릭스"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SamplePoint"
+msgstr "채취 지점"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SamplePoints"
+msgstr "채취 지점"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SamplePreservation"
+msgstr "보존 방법"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SamplePreservations"
+msgstr "보존 방법"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SampleTemplate"
+msgstr "시료 템플릿"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SampleTemplates"
+msgstr "시료 템플릿"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SampleType"
+msgstr "시료 유형"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SampleTypes"
+msgstr "시료 유형"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Samples"
+msgstr "시료"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Sampling"
+msgstr "채취"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Sampling Deviation"
+msgstr "채취 편차"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Sampling Deviations"
+msgstr "채취 편차"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SamplingDeviation"
+msgstr "채취 편차"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SamplingDeviations"
+msgstr "채취 편차"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Save"
+msgstr "저장"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Search"
+msgstr "검색"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Security"
+msgstr "보안"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Select this to make the Sample Condition field required"
+msgstr "시료 상태 필드를 필수로 지정하려면 선택합니다"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Setup"
+msgstr "설정"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Simple File"
+msgstr "단순 파일"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Simple Image"
+msgstr "단순 이미지"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SimpleFile"
+msgstr "파일"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SimpleImage"
+msgstr "이미지"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Small Sticker"
+msgstr "소형 스티커"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Specification"
+msgstr "규격"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Spotlight Settings"
+msgstr "Spotlight 설정"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Spread the word on Twitter"
+msgstr "Twitter에서 알리기"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Status"
+msgstr "상태"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Sticker"
+msgstr "스티커"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Stickers preview"
+msgstr "스티커 미리보기"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Storage Location"
+msgstr "보관 위치"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Storage Locations"
+msgstr "보관 위치"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "StorageLocation"
+msgstr "보관 위치"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "StorageLocations"
+msgstr "보관 위치"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SubGroup"
+msgstr "하위 그룹"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SubGroups"
+msgstr "하위 그룹"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Submitter"
+msgstr "제출자"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Supplier"
+msgstr "공급업체"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "SupplierContact"
+msgstr "공급업체 담당자"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Suppliers"
+msgstr "공급업체"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Talk with us on Gitter"
+msgstr "Gitter에서 대화하기"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "This page does not seem to exist…"
+msgstr "페이지가 존재하지 않는 것 같습니다…"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Toggle column filter"
+msgstr "열 필터 전환"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Toggle sidebar (Ctrl/Cmd+B)"
+msgstr "사이드바 전환 (Ctrl/Cmd+B)"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "US Ledger (279 x 432mm)"
+msgstr "US 레저 (279 x 432mm)"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "US Legal (216 x 356mm)"
+msgstr "US 리갈 (216 x 356mm)"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "US Letter (215.9 x 279.4mm)"
+msgstr "US 레터 (215.9 x 279.4mm)"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Unit"
+msgstr "단위"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Users"
+msgstr "사용자"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Visit the Website"
+msgstr "웹사이트 방문"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Warning"
+msgstr "경고"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid ""
+"We apologize for the inconvenience, but the page you were trying to access "
+"is not at this address. You can use the links below to help you find what "
+"you are looking for."
+msgstr "불편을 드려 죄송합니다. 접근하려는 페이지가 이 주소에 없습니다. 아래 링크를 사용하여 찾으시는 내용을 확인할 수 있습니다."
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Welcome to Plone"
+msgstr "Plone에 오신 것을 환영합니다"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "We’re sorry, but there seems to be an error…"
+msgstr "죄송합니다. 오류가 발생한 것 같습니다…"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Worksheet"
+msgstr "워크시트"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Worksheet Template"
+msgstr "워크시트 템플릿"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Worksheet Templates"
+msgstr "워크시트 템플릿"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "WorksheetTemplate"
+msgstr "워크시트 템플릿"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "WorksheetTemplates"
+msgstr "워크시트 템플릿"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "Worksheets"
+msgstr "워크시트"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "You might have been looking for…"
+msgstr "찾으시는 항목은 다음일 수 있습니다…"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "backreference"
+msgstr "backreference"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "contained"
+msgstr "contained"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "counter"
+msgstr "counter"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "generated"
+msgstr "generated"
+
+#. Not in the source .pot: UI string rendered via another domain / data title
+msgid "site administration"
+msgstr "사이트 관리자"

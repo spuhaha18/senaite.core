@@ -1,0 +1,48 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="senaite.pharma">
+
+  <five:registerPackage package="." initialize=".initialize" />
+  <i18n:registerTranslations directory="locales" />
+
+  <include file="permissions.zcml" />
+  <include package=".browser" />
+
+  <!-- Electronic signatures: records that can be signed -->
+  <class class=".content.study.StabilityStudy">
+    <implements interface=".interfaces.ISignable" />
+  </class>
+  <class class="bika.lims.content.analysisrequest.AnalysisRequest">
+    <implements interface=".interfaces.ISignable" />
+  </class>
+
+  <!-- Record fingerprints for electronic signatures -->
+  <adapter
+      for=".interfaces.IStabilityStudy"
+      provides=".interfaces.IRecordFingerprint"
+      factory=".stability.StudyFingerprint" />
+  <adapter
+      for="bika.lims.interfaces.IAnalysisRequest"
+      provides=".interfaces.IRecordFingerprint"
+      factory=".stability.SampleFingerprint" />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="SENAITE PHARMA"
+      directory="profiles/default"
+      description="Stability studies, electronic signatures and reports for pharmaceutical laboratories"
+      provides="Products.GenericSetup.interfaces.EXTENSION" />
+
+  <genericsetup:importStep
+      name="senaite.pharma.setup_handler"
+      title="SENAITE PHARMA: Setup handler"
+      description="Create the stability studies folder"
+      handler=".setuphandlers.setup_handler">
+    <depends name="typeinfo" />
+    <depends name="workflow" />
+  </genericsetup:importStep>
+
+</configure>

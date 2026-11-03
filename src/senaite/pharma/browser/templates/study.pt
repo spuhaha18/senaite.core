@@ -1,0 +1,248 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      metal:use-macro="here/main_template/macros/master"
+      i18n:domain="senaite.pharma">
+  <head>
+    <metal:block fill-slot="senaite_legacy_resources"></metal:block>
+  </head>
+  <body>
+
+    <metal:title fill-slot="content-title">
+      <h1 class="d-flex align-items-center">
+        <span tal:content="context/Title"/>
+        <span class="badge badge-secondary ml-3 small"
+              tal:content="view/get_state_title"/>
+      </h1>
+    </metal:title>
+
+    <metal:description fill-slot="content-description">
+      <p class="text-secondary" tal:content="context/Description"></p>
+    </metal:description>
+
+    <metal:core fill-slot="content-core">
+    <div id="stability-study-view"
+         tal:define="authenticator context/@@authenticator/authenticator;
+                     base_url context/absolute_url;
+                     schedule view/get_schedule;
+                     can_pull view/can_pull;
+                     actions view/get_signed_actions;">
+
+      <!-- Signed actions -->
+      <div class="mb-3 d-flex flex-wrap align-items-center">
+        <tal:actions repeat="action actions">
+          <a tal:attributes="href action/url;
+                             class string:btn btn-sm ${action/css} mr-2 mb-2"
+             tal:content="action/title"></a>
+        </tal:actions>
+        <a class="btn btn-sm btn-outline-secondary mr-2 mb-2"
+           tal:attributes="href string:${base_url}/stability_report"
+           i18n:translate="">Report preview</a>
+        <a class="btn btn-sm btn-outline-secondary mr-2 mb-2"
+           tal:attributes="href string:${base_url}/stability_report_pdf"
+           i18n:translate="">Draft PDF</a>
+        <a class="btn btn-sm btn-outline-secondary mb-2"
+           tal:attributes="href string:${base_url}/esignatures"
+           i18n:translate="">Electronic signatures</a>
+      </div>
+
+      <div class="row">
+        <!-- Protocol -->
+        <div class="col-lg-5 mb-4">
+          <h3 i18n:translate="">Stability protocol</h3>
+          <table class="table table-sm table-bordered">
+            <tr tal:repeat="row view/get_protocol">
+              <th class="w-50 bg-light" tal:content="python:row[0]"></th>
+              <td>
+                <a tal:condition="python:row[2]"
+                   tal:attributes="href python:row[2]"
+                   tal:content="python:row[1]"></a>
+                <span tal:condition="python:not row[2]"
+                      tal:content="python:row[1]"></span>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- Conditions and tests -->
+        <div class="col-lg-7 mb-4">
+          <h3 i18n:translate="">Storage conditions</h3>
+          <table class="table table-sm table-bordered">
+            <thead class="thead-light">
+              <tr>
+                <th>#</th>
+                <th i18n:translate="">Storage condition</th>
+                <th i18n:translate="">Study type</th>
+                <th i18n:translate="">Time points (months)</th>
+                <th i18n:translate="">Storage location / chamber</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr tal:repeat="condition view/get_conditions">
+                <td tal:content="repeat/condition/number"></td>
+                <td tal:content="condition/condition"></td>
+                <td tal:content="condition/study_type_title"></td>
+                <td tal:content="condition/months_label"></td>
+                <td tal:content="condition/storage|nothing"></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3 i18n:translate="">Tests</h3>
+          <table class="table table-sm table-bordered">
+            <thead class="thead-light">
+              <tr>
+                <th i18n:translate="">Test</th>
+                <th i18n:translate="">Keyword</th>
+                <th i18n:translate="">Unit</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr tal:repeat="service view/get_services">
+                <td tal:content="service/title"></td>
+                <td><code tal:content="service/keyword"></code></td>
+                <td tal:content="service/unit"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Pull schedule -->
+      <h3 i18n:translate="">Pull schedule</h3>
+      <p class="text-secondary" tal:condition="not:schedule"
+         i18n:translate="">
+        The pull schedule is generated when the study is approved with an
+        electronic signature.
+      </p>
+
+      <form method="POST" tal:condition="schedule"
+            tal:attributes="action string:${base_url}/view">
+        <input tal:replace="structure authenticator"/>
+        <table class="table table-sm table-bordered table-hover">
+          <thead class="thead-light">
+            <tr>
+              <th tal:condition="can_pull"></th>
+              <th i18n:translate="">Time point</th>
+              <th i18n:translate="">Storage condition</th>
+              <th i18n:translate="">Due date</th>
+              <th i18n:translate="">Pull window</th>
+              <th i18n:translate="">Status</th>
+              <th i18n:translate="">Sample</th>
+              <th i18n:translate="">Pulled</th>
+              <th i18n:translate="">Remarks</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr tal:repeat="entry schedule">
+              <td tal:condition="can_pull">
+                <input type="checkbox" name="entries:list"
+                       tal:condition="entry/selectable"
+                       tal:attributes="value entry/id"/>
+              </td>
+              <td><strong tal:content="entry/label"></strong></td>
+              <td tal:content="entry/condition_title"></td>
+              <td tal:content="entry/due_date"></td>
+              <td>
+                <span tal:replace="entry/window_start"/> ~
+                <span tal:replace="entry/window_end"/>
+              </td>
+              <td>
+                <span tal:attributes="class string:badge ${entry/status_css}"
+                      tal:content="entry/status_title"></span>
+              </td>
+              <td>
+                <a tal:condition="entry/sample_url"
+                   tal:attributes="href entry/sample_url"
+                   tal:content="entry/sample_id"></a>
+                <small class="text-secondary"
+                       tal:condition="entry/sample_url"
+                       tal:content="entry/sample_state"></small>
+              </td>
+              <td>
+                <span tal:replace="entry/pulled_date"/>
+                <small class="text-secondary"
+                       tal:content="entry/pulled_by"></small>
+              </td>
+              <td tal:content="entry/remarks"></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="form-row align-items-center mb-4" tal:condition="can_pull">
+          <div class="col-md-6">
+            <input type="text" class="form-control form-control-sm"
+                   name="remarks"
+                   i18n:attributes="placeholder"
+                   placeholder="Remarks (required to cancel time points)"/>
+          </div>
+          <div class="col-auto">
+            <button type="submit" name="form.button.pull" value="1"
+                    class="btn btn-sm btn-primary" i18n:translate="">
+              Pull selected time points
+            </button>
+            <button type="submit" name="form.button.skip" value="1"
+                    class="btn btn-sm btn-outline-danger" i18n:translate="">
+              Cancel selected time points
+            </button>
+          </div>
+        </div>
+      </form>
+
+      <!-- Results -->
+      <tal:results condition="schedule"
+                   define="matrix view/get_results_matrix">
+        <h3 i18n:translate="">Results</h3>
+        <metal:results use-macro="context/@@stability_macros/macros/results"/>
+      </tal:results>
+
+      <!-- Conclusion -->
+      <tal:conclusion condition="context/getConclusion">
+        <h3 i18n:translate="">Conclusion</h3>
+        <p style="white-space: pre-wrap"
+           tal:content="context/getConclusion"></p>
+      </tal:conclusion>
+
+      <!-- Approved reports -->
+      <tal:reports define="reports view/get_reports" condition="reports">
+        <h3 i18n:translate="">Approved reports</h3>
+        <table class="table table-sm table-bordered">
+          <thead class="thead-light">
+            <tr>
+              <th i18n:translate="">Report</th>
+              <th i18n:translate="">Type</th>
+              <th i18n:translate="">Approved by</th>
+              <th i18n:translate="">Date</th>
+              <th>SHA-256</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr tal:repeat="report reports">
+              <td><a tal:attributes="href report/url"
+                     tal:content="report/filename"></a></td>
+              <td>
+                <span tal:condition="python:report['kind'] == 'final'"
+                      i18n:translate="">Final</span>
+                <span tal:condition="python:report['kind'] != 'final'"
+                      i18n:translate="">Interim</span>
+              </td>
+              <td tal:content="report/signed_by"></td>
+              <td tal:content="report/date"></td>
+              <td><code class="small" tal:content="report/sha256"></code></td>
+            </tr>
+          </tbody>
+        </table>
+      </tal:reports>
+
+      <!-- Signatures -->
+      <h3 i18n:translate="">Electronic signatures</h3>
+      <tal:signatures define="signatures view/get_signatures">
+        <metal:signatures
+            use-macro="context/@@stability_macros/macros/signatures"/>
+      </tal:signatures>
+
+    </div>
+    </metal:core>
+  </body>
+</html>

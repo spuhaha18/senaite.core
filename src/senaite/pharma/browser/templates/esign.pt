@@ -1,0 +1,127 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      metal:use-macro="here/main_template/macros/master"
+      i18n:domain="senaite.pharma">
+  <head>
+    <metal:block fill-slot="senaite_legacy_resources"></metal:block>
+  </head>
+  <body>
+
+    <metal:title fill-slot="content-title">
+      <h1 i18n:translate="">Electronic signature</h1>
+    </metal:title>
+
+    <metal:description fill-slot="content-description">
+      <p class="text-secondary">
+        <span tal:replace="view/get_action_title"/>:
+        <strong tal:content="view/get_record_title"></strong>
+      </p>
+    </metal:description>
+
+    <metal:core fill-slot="content-core">
+    <div id="esign-view" class="row"
+         tal:define="signer view/get_signer;
+                     locked view/get_locked_until;">
+      <div class="col-lg-7">
+
+        <div class="alert alert-danger" tal:repeat="error view/errors"
+             tal:content="error"></div>
+
+        <div class="alert alert-warning" tal:condition="locked"
+             i18n:translate="">
+          You are locked out of signing until
+          <strong i18n:name="date" tal:content="locked"></strong>
+          because of repeated failed attempts.
+        </div>
+
+        <form method="POST" class="card"
+              tal:attributes="action string:${context/absolute_url}/esign">
+          <div class="card-body">
+            <input tal:replace="structure context/@@authenticator/authenticator"/>
+            <input type="hidden" name="action"
+                   tal:attributes="value view/action"/>
+            <input type="hidden" name="came_from"
+                   tal:attributes="value request/came_from|nothing"/>
+
+            <div class="form-group">
+              <label i18n:translate="">Signer</label>
+              <div class="form-control-plaintext">
+                <strong tal:content="signer/fullname"></strong>
+                (<span tal:replace="signer/userid"/>)
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="meaning" i18n:translate="">Meaning of signature</label>
+              <select id="meaning" name="meaning" class="form-control">
+                <option tal:repeat="meaning view/get_meanings"
+                        tal:attributes="value meaning/value;
+                                        selected python:meaning['selected'] and 'selected' or None"
+                        tal:content="meaning/title"></option>
+              </select>
+            </div>
+
+            <div class="form-group" tal:condition="view/show_conclusion">
+              <label for="conclusion" i18n:translate="">Conclusion</label>
+              <textarea id="conclusion" name="conclusion" rows="5"
+                        class="form-control"
+                        tal:content="view/get_conclusion"></textarea>
+              <small class="form-text text-secondary" i18n:translate="">
+                Summary of the stability data and the proposed shelf life /
+                retest period. The conclusion is part of the signed record.
+              </small>
+            </div>
+
+            <div class="form-group">
+              <label for="comment" i18n:translate="">Comment / reason</label>
+              <textarea id="comment" name="comment" rows="2"
+                        class="form-control"
+                        tal:content="request/comment|nothing"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="password" i18n:translate="">Password</label>
+              <input type="password" id="password" name="password"
+                     class="form-control" autocomplete="off" required="required"/>
+              <small class="form-text text-secondary" i18n:translate="">
+                Re-enter your login password to execute the signature.
+              </small>
+            </div>
+
+            <div class="form-check mb-3">
+              <input type="checkbox" class="form-check-input" id="certify"
+                     name="certify" value="1"/>
+              <label class="form-check-label" for="certify" i18n:translate="">
+                I understand that this electronic signature is the legally
+                binding equivalent of my handwritten signature.
+              </label>
+            </div>
+
+            <button type="submit" name="form.button.sign" value="1"
+                    class="btn btn-primary" i18n:translate="">Sign</button>
+            <button type="submit" name="form.button.cancel" value="1"
+                    formnovalidate="formnovalidate"
+                    class="btn btn-outline-secondary" i18n:translate="">
+              Cancel
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="card bg-light">
+          <div class="card-body small text-secondary" i18n:translate="">
+            The signature records your name, the date and time and the
+            meaning of the signature. It is linked to the current content of
+            the record by a SHA-256 fingerprint. Every attempt is written to
+            the signature log; repeated failed attempts lock the signing for
+            this user.
+          </div>
+        </div>
+      </div>
+    </div>
+    </metal:core>
+  </body>
+</html>

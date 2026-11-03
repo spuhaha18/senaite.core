@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rolemap>
+  <permissions>
+    <permission name="senaite.pharma: Add StabilityStudy" acquire="True">
+      <role name="LabManager"/>
+      <role name="Manager"/>
+    </permission>
+    <permission name="senaite.pharma: Approve StabilityStudy" acquire="True">
+      <role name="LabManager"/>
+      <role name="Manager"/>
+    </permission>
+    <permission name="senaite.pharma: Pull Stability Samples" acquire="True">
+      <role name="Analyst"/>
+      <role name="LabClerk"/>
+      <role name="LabManager"/>
+      <role name="Manager"/>
+    </permission>
+    <permission name="senaite.pharma: Sign Electronically" acquire="True">
+      <role name="Analyst"/>
+      <role name="LabClerk"/>
+      <role name="LabManager"/>
+      <role name="Manager"/>
+      <role name="Publisher"/>
+      <role name="Verifier"/>
+    </permission>
+    <permission name="senaite.pharma: View Signature Log" acquire="True">
+      <role name="LabManager"/>
+      <role name="Manager"/>
+    </permission>
+  </permissions>
+</rolemap>

@@ -1,0 +1,506 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: senaite.pharma\n"
+"POT-Creation-Date: 2026-11-03 00:00+0900\n"
+"PO-Revision-Date: 2026-11-03 00:00+0900\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Domain: senaite.pharma\n"
+"Language-Code: ko\n"
+"Language-Name: Korean\n"
+"Preferred-Encodings: utf-8\n"
+
+msgid "Long-term"
+msgstr "장기보존시험"
+
+msgid "Intermediate"
+msgstr "중간조건시험"
+
+msgid "Accelerated"
+msgstr "가속시험"
+
+msgid "Stress / Forced degradation"
+msgstr "가혹시험"
+
+msgid "Photostability"
+msgstr "광안정성시험"
+
+msgid "In-use"
+msgstr "사용 중 안정성시험"
+
+msgid "Other"
+msgstr "기타"
+
+msgid "Scheduled"
+msgstr "예정"
+
+msgid "Pulled"
+msgstr "채취됨"
+
+msgid "Cancelled"
+msgstr "취소됨"
+
+msgid "Authored"
+msgstr "작성"
+
+msgid "Reviewed"
+msgstr "검토"
+
+msgid "Approved"
+msgstr "승인"
+
+msgid "Verified"
+msgstr "확인"
+
+msgid "Responsibility"
+msgstr "책임"
+
+msgid "Stability Study"
+msgstr "안정성시험"
+
+msgid "Stability study according to an approved stability protocol"
+msgstr "승인된 안정성시험계획서에 따른 안정성시험"
+
+msgid "View"
+msgstr "보기"
+
+msgid "Edit"
+msgstr "편집"
+
+msgid "Stability report"
+msgstr "안정성시험 보고서"
+
+msgid "Signatures"
+msgstr "전자서명"
+
+msgid "Stability Studies"
+msgstr "안정성시험"
+
+msgid "Draft"
+msgstr "초안"
+
+msgid "Active"
+msgstr "진행 중"
+
+msgid "Completed"
+msgstr "완료"
+
+msgid "Approve and start"
+msgstr "승인 및 개시"
+
+msgid "Complete"
+msgstr "완료"
+
+msgid "Cancel"
+msgstr "취소"
+
+msgid "Add"
+msgstr "추가"
+
+msgid "Stability studies according to approved stability protocols"
+msgstr "승인된 안정성시험계획서에 따른 안정성시험 목록"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Protocol number"
+msgstr "시험계획서 번호"
+
+msgid "Study title"
+msgstr "시험명"
+
+msgid "Product name"
+msgstr "제품명"
+
+msgid "Lot / batch number(s)"
+msgstr "제조번호(Lot)"
+
+msgid "Study start date (T0)"
+msgstr "시험 개시일 (T0)"
+
+msgid "Next due date"
+msgstr "다음 채취 예정일"
+
+msgid "State"
+msgstr "상태"
+
+msgid "All"
+msgstr "전체"
+
+msgid "Approve and start the study"
+msgstr "시험 승인 및 개시"
+
+msgid "Complete the study"
+msgstr "시험 완료"
+
+msgid "Cancel the study"
+msgstr "시험 취소"
+
+msgid "Approve the stability report"
+msgstr "보고서 승인"
+
+msgid "Sign the record"
+msgstr "기록 서명"
+
+msgid "This action is not allowed"
+msgstr "허용되지 않은 작업입니다"
+
+msgid "Please confirm that the electronic signature is the legally binding equivalent of your handwritten signature"
+msgstr "전자서명이 자필서명과 동일한 법적 효력을 가진다는 것에 동의해 주십시오"
+
+msgid "A reason is required for cancellation"
+msgstr "취소 사유를 입력해야 합니다"
+
+msgid "A conclusion is required to complete the study"
+msgstr "시험을 완료하려면 결론을 입력해야 합니다"
+
+msgid "You are temporarily locked out of signing because of repeated failed attempts. Please contact your lab manager."
+msgstr "서명 실패가 반복되어 일시적으로 서명이 잠겼습니다. 시험실 책임자에게 문의하십시오."
+
+msgid "The password is not correct. The failed attempt has been logged."
+msgstr "비밀번호가 올바르지 않습니다. 실패한 시도가 기록되었습니다."
+
+msgid "Signed electronically by ${name}"
+msgstr "${name} 님이 전자서명하였습니다"
+
+msgid "User ${user} has been unlocked"
+msgstr "사용자 ${user}의 서명 잠금이 해제되었습니다"
+
+msgid "Due"
+msgstr "채취 기간"
+
+msgid "Overdue"
+msgstr "기한 초과"
+
+msgid "You are not allowed to pull samples"
+msgstr "시료를 채취할 권한이 없습니다"
+
+msgid "No time points selected"
+msgstr "선택된 시점이 없습니다"
+
+msgid "A reason is required to cancel time points"
+msgstr "시점을 취소하려면 사유(비고)를 입력해야 합니다"
+
+msgid "${count} time point(s) cancelled"
+msgstr "${count}개 시점이 취소되었습니다"
+
+msgid "Samples created: ${ids}"
+msgstr "시료가 생성되었습니다: ${ids}"
+
+msgid "Sample type"
+msgstr "시료 유형"
+
+msgid "Manufacturing date"
+msgstr "제조일자"
+
+msgid "Container closure system"
+msgstr "용기·마개 시스템(포장)"
+
+msgid "Client"
+msgstr "의뢰 부서(고객사)"
+
+msgid "Requesting client contact"
+msgstr "의뢰 담당자"
+
+msgid "Pull window (± days)"
+msgstr "채취 허용 기간 (± 일)"
+
+msgid "Specification"
+msgstr "규격"
+
+msgid "Batch"
+msgstr "배치"
+
+msgid "Initial (all conditions)"
+msgstr "초기 (전 조건 공통)"
+
+msgid "Electronic signature"
+msgstr "전자서명"
+
+msgid "You are locked out of signing until ${date} because of repeated failed attempts."
+msgstr "서명 실패가 반복되어 ${date}까지 서명이 잠겼습니다."
+
+msgid "Signer"
+msgstr "서명자"
+
+msgid "Meaning of signature"
+msgstr "서명의 의미"
+
+msgid "Conclusion"
+msgstr "결론"
+
+msgid "Summary of the stability data and the proposed shelf life / retest period. The conclusion is part of the signed record."
+msgstr "안정성 자료의 요약 및 제안하는 유효기간/재시험기간. 결론은 서명 대상 기록에 포함됩니다."
+
+msgid "Comment / reason"
+msgstr "의견 / 사유"
+
+msgid "Password"
+msgstr "비밀번호"
+
+msgid "Re-enter your login password to execute the signature."
+msgstr "서명하려면 로그인 비밀번호를 다시 입력하십시오."
+
+msgid "I understand that this electronic signature is the legally binding equivalent of my handwritten signature."
+msgstr "본 전자서명이 자필서명과 동일한 법적 효력을 가진다는 것을 이해합니다."
+
+msgid "Sign"
+msgstr "서명"
+
+msgid "The signature records your name, the date and time and the meaning of the signature. It is linked to the current content of the record by a SHA-256 fingerprint. Every attempt is written to the signature log; repeated failed attempts lock the signing for this user."
+msgstr "전자서명에는 서명자 성명, 서명 일시, 서명의 의미가 기록되며, SHA-256 지문으로 현재 기록 내용과 연결됩니다. 모든 서명 시도는 서명 로그에 기록되며, 실패가 반복되면 해당 사용자의 서명이 잠깁니다."
+
+msgid "← Back"
+msgstr "← 돌아가기"
+
+msgid "Draft PDF"
+msgstr "초안 PDF"
+
+msgid "Print"
+msgstr "인쇄"
+
+msgid "Stability Study Report"
+msgstr "안정성시험 결과보고서"
+
+msgid "Interim Stability Report"
+msgstr "안정성시험 중간보고서"
+
+msgid "DRAFT – not approved. Only reports approved with an electronic signature are valid."
+msgstr "초안 – 미승인. 전자서명으로 승인된 보고서만 유효합니다."
+
+msgid "Status"
+msgstr "상태"
+
+msgid "Study information"
+msgstr "시험 정보"
+
+msgid "Storage conditions"
+msgstr "보관 조건"
+
+msgid "Storage condition"
+msgstr "보관 조건"
+
+msgid "Study type"
+msgstr "시험 구분"
+
+msgid "Time points (months)"
+msgstr "시험 시점 (개월)"
+
+msgid "Storage location / chamber"
+msgstr "보관 장소 / 챔버"
+
+msgid "Pull schedule"
+msgstr "채취 일정"
+
+msgid "Time point"
+msgstr "시점"
+
+msgid "Due date"
+msgstr "예정일"
+
+msgid "Sample"
+msgstr "시료"
+
+msgid "Remarks"
+msgstr "비고"
+
+msgid "Results"
+msgstr "시험 결과"
+
+msgid "No conclusion yet (study in progress)."
+msgstr "결론 없음 (시험 진행 중)."
+
+msgid "Electronic signatures"
+msgstr "전자서명"
+
+msgid "This report was signed electronically. The electronic signatures are the legally binding equivalent of handwritten signatures."
+msgstr "본 보고서는 전자서명되었습니다. 전자서명은 자필서명과 동일한 법적 효력을 가집니다."
+
+msgid "Test"
+msgstr "시험항목"
+
+msgid "Unit"
+msgstr "단위"
+
+msgid "n/a"
+msgstr "해당 없음"
+
+msgid "* Result not yet verified."
+msgstr "* 확인(검증) 전 결과."
+
+msgid "OOS: out of specification."
+msgstr "OOS: 규격 이탈."
+
+msgid "No electronic signatures"
+msgstr "전자서명 없음"
+
+msgid "Signed by"
+msgstr "서명자"
+
+msgid "Date and time"
+msgstr "서명 일시"
+
+msgid "Meaning"
+msgstr "의미"
+
+msgid "Action"
+msgstr "작업"
+
+msgid "Comment"
+msgstr "의견"
+
+msgid "Record integrity"
+msgstr "기록 무결성"
+
+msgid "Unchanged since signing"
+msgstr "서명 이후 변경 없음"
+
+msgid "Changed after signing"
+msgstr "서명 이후 변경됨"
+
+msgid "Report preview"
+msgstr "보고서 미리보기"
+
+msgid "Stability protocol"
+msgstr "안정성시험계획서"
+
+msgid "Tests"
+msgstr "시험항목"
+
+msgid "Keyword"
+msgstr "키워드"
+
+msgid "The pull schedule is generated when the study is approved with an electronic signature."
+msgstr "채취 일정은 시험이 전자서명으로 승인될 때 생성됩니다."
+
+msgid "Pull window"
+msgstr "채취 허용 기간"
+
+msgid "Pull selected time points"
+msgstr "선택한 시점 시료 채취"
+
+msgid "Cancel selected time points"
+msgstr "선택한 시점 취소"
+
+msgid "Approved reports"
+msgstr "승인된 보고서"
+
+msgid "Report"
+msgstr "보고서"
+
+msgid "Type"
+msgstr "구분"
+
+msgid "Approved by"
+msgstr "승인자"
+
+msgid "Date"
+msgstr "일시"
+
+msgid "Final"
+msgstr "최종"
+
+msgid "Interim"
+msgstr "중간"
+
+msgid "Remarks (required to cancel time points)"
+msgstr "비고 (시점 취소 시 필수)"
+
+msgid "Electronic signature log"
+msgstr "전자서명 로그"
+
+msgid "All signature attempts, successful or not (latest 500 entries)."
+msgstr "성공·실패를 포함한 모든 서명 시도 (최근 500건)."
+
+msgid "Locked users"
+msgstr "서명 잠금 사용자"
+
+msgid "Unlock"
+msgstr "잠금 해제"
+
+msgid "User"
+msgstr "사용자"
+
+msgid "Outcome"
+msgstr "결과"
+
+msgid "Record"
+msgstr "기록"
+
+msgid "Signed"
+msgstr "서명 완료"
+
+msgid "Wrong password"
+msgstr "비밀번호 오류"
+
+msgid "Locked"
+msgstr "잠김"
+
+msgid "Time points must be a comma separated list of months, e.g. '0, 3, 6, 9, 12'"
+msgstr "시험 시점은 쉼표로 구분된 개월 수로 입력하십시오. 예: '0, 3, 6, 9, 12'"
+
+msgid "Product"
+msgstr "제품"
+
+msgid "Storage conditions & tests"
+msgstr "보관 조건 및 시험항목"
+
+msgid "Number of the approved stability protocol"
+msgstr "승인된 안정성시험계획서의 문서번호"
+
+msgid "Description / objective"
+msgstr "설명 / 목적"
+
+msgid "Name"
+msgstr "이름"
+
+msgid "Email"
+msgstr "이메일"
+
+msgid "The stability samples are registered for the client of this contact"
+msgstr "안정성 시료는 이 담당자의 의뢰 부서(고객사)로 접수됩니다"
+
+msgid "Due dates of the time points are calculated from this date"
+msgstr "각 시점의 채취 예정일은 이 날짜를 기준으로 계산됩니다"
+
+msgid "Allowed deviation from the due date of a time point"
+msgstr "채취 예정일로부터 허용되는 편차"
+
+msgid "Sample type of the stability samples (e.g. dosage form)"
+msgstr "안정성 시료의 시료 유형 (예: 제형)"
+
+msgid "Primary packaging, e.g. 'HDPE bottle 30 count'"
+msgstr "1차 포장, 예: 'HDPE 병 30정'"
+
+msgid "One line per storage condition. Time points are given in months, e.g. '0, 3, 6, 9, 12'. The initial time point (0) is pulled only once for all conditions."
+msgstr "보관 조건마다 한 줄씩 입력합니다. 시험 시점은 개월 단위로 입력합니다(예: '0, 3, 6, 9, 12'). 초기 시점(0)은 모든 조건에 공통으로 한 번만 채취합니다."
+
+msgid "Analyses that are performed at every time point"
+msgstr "각 시점마다 수행하는 시험항목"
+
+msgid "Acceptance criteria applied to the stability samples"
+msgstr "안정성 시료에 적용할 적합 기준"
+
+msgid "At least one storage condition is required"
+msgstr "보관 조건을 하나 이상 입력해야 합니다"
+
+msgid "Storage conditions must be unique"
+msgstr "보관 조건은 중복될 수 없습니다"
+
+msgid "&larr; Back"
+msgstr "&larr; 돌아가기"
+
+msgid "DRAFT &ndash; not approved. Only reports approved with an electronic signature are valid."
+msgstr "초안 &ndash; 미승인. 전자서명으로 승인된 보고서만 유효합니다."
+
+msgid "Study completed"
+msgstr "시험 완료로 종료"
+
+msgid "Study cancelled"
+msgstr "시험 취소로 종료"
+
+msgid "The study can not be completed before the results of all pulled samples are verified: ${ids}"
+msgstr "모든 채취 시료의 결과가 확인(검증)되기 전에는 시험을 완료할 수 없습니다: ${ids}"
+

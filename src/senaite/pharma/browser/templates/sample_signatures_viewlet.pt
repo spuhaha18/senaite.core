@@ -1,0 +1,16 @@
+<div id="sample-esignatures" class="mb-3"
+     tal:condition="view/available"
+     i18n:domain="senaite.pharma">
+  <div class="d-flex align-items-center mb-1">
+    <strong class="mr-2" i18n:translate="">Electronic signatures</strong>
+    <a class="btn btn-sm btn-outline-primary"
+       tal:condition="view/can_sign"
+       tal:attributes="href view/sign_url"
+       i18n:translate="">Sign</a>
+  </div>
+  <tal:signatures define="signatures view/signatures"
+                  condition="signatures">
+    <metal:signatures
+        use-macro="context/@@stability_macros/macros/signatures"/>
+  </tal:signatures>
+</div>

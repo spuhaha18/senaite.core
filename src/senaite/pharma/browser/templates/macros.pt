@@ -1,0 +1,112 @@
+<tal:macros xmlns:tal="http://xml.zope.org/namespaces/tal"
+            xmlns:metal="http://xml.zope.org/namespaces/metal"
+            xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+            i18n:domain="senaite.pharma">
+
+  <!--
+    Results matrix of a stability study
+    Required variables: matrix (see senaite.pharma.stability.get_results_matrix)
+  -->
+  <metal:results define-macro="results">
+    <style>
+      .results-table .oos { color: #c0392b; font-weight: bold; }
+    </style>
+    <tal:condition repeat="condition matrix/conditions">
+      <h4 class="condition-title">
+        <span tal:content="condition/condition"></span>
+        <small class="text-secondary" tal:condition="condition/storage"
+               tal:content="string:(${condition/storage})"></small>
+      </h4>
+      <table class="table table-sm table-bordered results-table">
+        <thead class="thead-light">
+          <tr>
+            <th i18n:translate="">Test</th>
+            <th i18n:translate="">Specification</th>
+            <th i18n:translate="">Unit</th>
+            <th class="text-center"
+                tal:repeat="tp condition/timepoints">
+              <div tal:content="tp/entry/label"></div>
+              <small class="text-secondary font-weight-normal"
+                     tal:content="python:(tp['entry'].get('pulled_date') or tp['entry'].get('due_date') or '')[:10]"></small>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr tal:repeat="service matrix/services">
+            <tal:service define="keyword service/keyword;
+                                 specs python:[tp['results'][keyword]['spec'] for tp in condition['timepoints'] if keyword in tp['results'] and tp['results'][keyword]['spec']];">
+              <td tal:content="service/title"></td>
+              <td tal:content="python:specs and specs[-1] or ''"></td>
+              <td tal:content="service/unit"></td>
+              <td class="text-center"
+                  tal:repeat="tp condition/timepoints">
+                <tal:info define="info python:tp['results'].get(keyword)">
+                  <tal:status condition="not:info">
+                    <span class="text-secondary"
+                          tal:condition="python:tp['entry']['status'] == 'cancelled'"
+                          i18n:translate="">n/a</span>
+                    <span class="text-secondary"
+                          tal:condition="python:tp['entry']['status'] != 'cancelled'">–</span>
+                  </tal:status>
+                  <tal:result condition="info">
+                    <span tal:attributes="class python:'oos' if info['out_of_range'] else ''"
+                          tal:content="python:info['result'] or u'\u2026'"></span>
+                    <strong class="oos" tal:condition="info/out_of_range">OOS</strong>
+                    <sup tal:condition="python:info['result'] and not info['final']"
+                         class="text-secondary">*</sup>
+                  </tal:result>
+                </tal:info>
+              </td>
+            </tal:service>
+          </tr>
+        </tbody>
+      </table>
+    </tal:condition>
+    <p class="small text-secondary">
+      <span i18n:translate="">* Result not yet verified.</span>
+      <span i18n:translate="">OOS: out of specification.</span>
+    </p>
+  </metal:results>
+
+  <!--
+    Signature manifestations
+    Required variables: signatures (see browser.esign.get_signature_infos)
+  -->
+  <metal:signatures define-macro="signatures">
+    <p class="text-secondary" tal:condition="not:signatures"
+       i18n:translate="">No electronic signatures</p>
+    <table class="table table-sm table-bordered signatures-table"
+           tal:condition="signatures">
+      <thead class="thead-light">
+        <tr>
+          <th i18n:translate="">Signed by</th>
+          <th i18n:translate="">Date and time</th>
+          <th i18n:translate="">Meaning</th>
+          <th i18n:translate="">Action</th>
+          <th i18n:translate="">Comment</th>
+          <th i18n:translate="">Record integrity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr tal:repeat="signature signatures">
+          <td>
+            <strong tal:content="signature/fullname"></strong>
+            <small class="text-secondary"
+                   tal:content="string:(${signature/userid})"></small>
+          </td>
+          <td tal:content="signature/date"></td>
+          <td tal:content="signature/meaning_title"></td>
+          <td tal:content="signature/action_title"></td>
+          <td tal:content="signature/comment"></td>
+          <td>
+            <span class="text-success" tal:condition="signature/valid"
+                  i18n:translate="">Unchanged since signing</span>
+            <span class="text-danger" tal:condition="not:signature/valid"
+                  i18n:translate="">Changed after signing</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </metal:signatures>
+
+</tal:macros>

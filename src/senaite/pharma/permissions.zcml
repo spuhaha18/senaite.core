@@ -1,0 +1,23 @@
+<configure xmlns="http://namespaces.zope.org/zope">
+
+  <permission
+      id="senaite.pharma.AddStabilityStudy"
+      title="senaite.pharma: Add StabilityStudy" />
+
+  <permission
+      id="senaite.pharma.ApproveStabilityStudy"
+      title="senaite.pharma: Approve StabilityStudy" />
+
+  <permission
+      id="senaite.pharma.PullStabilitySamples"
+      title="senaite.pharma: Pull Stability Samples" />
+
+  <permission
+      id="senaite.pharma.SignElectronically"
+      title="senaite.pharma: Sign Electronically" />
+
+  <permission
+      id="senaite.pharma.ViewSignatureLog"
+      title="senaite.pharma: View Signature Log" />
+
+</configure>

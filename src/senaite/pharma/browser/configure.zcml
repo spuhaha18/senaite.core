@@ -1,0 +1,89 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="senaite.pharma">
+
+  <!-- Stability studies listing -->
+  <browser:page
+      for="senaite.pharma.interfaces.IStabilityStudies"
+      name="view"
+      class=".studies.StabilityStudiesView"
+      permission="cmf.ListFolderContents"
+      layer="senaite.pharma.interfaces.ISenaitePharmaLayer"
+      />
+
+  <!-- Stability study -->
+  <browser:page
+      for="senaite.pharma.interfaces.IStabilityStudy"
+      name="view"
+      class=".study.StabilityStudyView"
+      permission="zope2.View"
+      layer="senaite.pharma.interfaces.ISenaitePharmaLayer"
+      />
+
+  <!-- Stability report -->
+  <browser:page
+      for="senaite.pharma.interfaces.IStabilityStudy"
+      name="stability_report"
+      class=".report.StabilityReportView"
+      permission="zope2.View"
+      layer="senaite.pharma.interfaces.ISenaitePharmaLayer"
+      />
+  <browser:page
+      for="senaite.pharma.interfaces.IStabilityStudy"
+      name="stability_report_pdf"
+      class=".report.StabilityReportPDFView"
+      permission="zope2.View"
+      layer="senaite.pharma.interfaces.ISenaitePharmaLayer"
+      />
+  <browser:page
+      for="senaite.pharma.interfaces.IStabilityStudy"
+      name="stability_report_download"
+      class=".report.StabilityReportDownloadView"
+      permission="zope2.View"
+      layer="senaite.pharma.interfaces.ISenaitePharmaLayer"
+      />
+
+  <!-- Macros (results matrix, signatures) -->
+  <browser:page
+      for="*"
+      name="stability_macros"
+      template="templates/macros.pt"
+      permission="zope2.View"
+      layer="senaite.pharma.interfaces.ISenaitePharmaLayer"
+      />
+
+  <!-- Electronic signatures -->
+  <browser:page
+      for="senaite.pharma.interfaces.ISignable"
+      name="esign"
+      class=".esign.ESignView"
+      permission="senaite.pharma.SignElectronically"
+      layer="senaite.pharma.interfaces.ISenaitePharmaLayer"
+      />
+  <browser:page
+      for="senaite.pharma.interfaces.ISignable"
+      name="esignatures"
+      class=".esign.SignaturesView"
+      permission="zope2.View"
+      layer="senaite.pharma.interfaces.ISenaitePharmaLayer"
+      />
+  <browser:page
+      for="Products.CMFCore.interfaces.ISiteRoot"
+      name="esignature_log"
+      class=".esign.SignatureLogView"
+      permission="senaite.pharma.ViewSignatureLog"
+      layer="senaite.pharma.interfaces.ISenaitePharmaLayer"
+      />
+
+  <!-- Signatures of samples -->
+  <browser:viewlet
+      for="bika.lims.interfaces.IAnalysisRequest"
+      name="senaite.pharma.sample_signatures"
+      class=".viewlets.SampleSignaturesViewlet"
+      manager="plone.app.layout.viewlets.interfaces.IAboveContentBody"
+      permission="zope2.View"
+      layer="senaite.pharma.interfaces.ISenaitePharmaLayer"
+      />
+
+</configure>

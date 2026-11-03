@@ -1,0 +1,84 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      metal:use-macro="here/main_template/macros/master"
+      i18n:domain="senaite.pharma">
+  <head>
+    <metal:block fill-slot="senaite_legacy_resources"></metal:block>
+  </head>
+  <body>
+
+    <metal:title fill-slot="content-title">
+      <h1 i18n:translate="">Electronic signature log</h1>
+    </metal:title>
+
+    <metal:description fill-slot="content-description">
+      <p class="text-secondary" i18n:translate="">
+        All signature attempts, successful or not (latest 500 entries).
+      </p>
+    </metal:description>
+
+    <metal:core fill-slot="content-core">
+    <div tal:define="locked view/get_locked_users">
+
+      <tal:locked condition="locked">
+        <h3 i18n:translate="">Locked users</h3>
+        <form method="POST"
+              tal:attributes="action string:${context/absolute_url}/esignature_log">
+          <input tal:replace="structure context/@@authenticator/authenticator"/>
+          <table class="table table-sm table-bordered">
+            <tr tal:repeat="user locked">
+              <td tal:content="user/userid"></td>
+              <td tal:content="user/until"></td>
+              <td>
+                <button type="submit" name="unlock" class="btn btn-sm btn-warning"
+                        tal:attributes="value user/userid"
+                        i18n:translate="">Unlock</button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </tal:locked>
+
+      <table class="table table-sm table-bordered table-striped">
+        <thead class="thead-light">
+          <tr>
+            <th i18n:translate="">Date and time</th>
+            <th i18n:translate="">User</th>
+            <th i18n:translate="">Outcome</th>
+            <th i18n:translate="">Record</th>
+            <th i18n:translate="">Action</th>
+            <th i18n:translate="">Meaning</th>
+            <th i18n:translate="">Comment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr tal:repeat="entry view/get_log">
+            <td tal:content="entry/date"></td>
+            <td tal:content="entry/userid"></td>
+            <td>
+              <span class="badge badge-success"
+                    tal:condition="python:entry['outcome'] == 'signed'"
+                    i18n:translate="">Signed</span>
+              <span class="badge badge-danger"
+                    tal:condition="python:entry['outcome'] == 'wrong_password'"
+                    i18n:translate="">Wrong password</span>
+              <span class="badge badge-warning"
+                    tal:condition="python:entry['outcome'] == 'locked'"
+                    i18n:translate="">Locked</span>
+            </td>
+            <td>
+              <a tal:attributes="href string:${context/portal_url}/resolveuid/${entry/uid}"
+                 tal:content="entry/title"></a>
+            </td>
+            <td tal:content="entry/action"></td>
+            <td tal:content="entry/meaning_title"></td>
+            <td tal:content="entry/comment"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </metal:core>
+  </body>
+</html>

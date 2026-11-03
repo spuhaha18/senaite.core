@@ -69,5 +69,9 @@
       factory=".setuphandlers.HiddenProfiles"
       name="senaite.core-hiddenprofiles"
       />
-  
+
+  <!-- Pharmaceutical laboratory extensions: stability studies, electronic
+       signatures and reports. Install the "SENAITE PHARMA" add-on to use. -->
+  <include package="senaite.pharma" />
+
 </configure>

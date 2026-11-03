@@ -1,0 +1,503 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: senaite.pharma\n"
+"POT-Creation-Date: 2026-11-03 00:00+0900\n"
+"PO-Revision-Date: 2026-11-03 00:00+0900\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Domain: senaite.pharma\n"
+
+msgid "Long-term"
+msgstr ""
+
+msgid "Intermediate"
+msgstr ""
+
+msgid "Accelerated"
+msgstr ""
+
+msgid "Stress / Forced degradation"
+msgstr ""
+
+msgid "Photostability"
+msgstr ""
+
+msgid "In-use"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "Scheduled"
+msgstr ""
+
+msgid "Pulled"
+msgstr ""
+
+msgid "Cancelled"
+msgstr ""
+
+msgid "Authored"
+msgstr ""
+
+msgid "Reviewed"
+msgstr ""
+
+msgid "Approved"
+msgstr ""
+
+msgid "Verified"
+msgstr ""
+
+msgid "Responsibility"
+msgstr ""
+
+msgid "Stability Study"
+msgstr ""
+
+msgid "Stability study according to an approved stability protocol"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Stability report"
+msgstr ""
+
+msgid "Signatures"
+msgstr ""
+
+msgid "Stability Studies"
+msgstr ""
+
+msgid "Draft"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Completed"
+msgstr ""
+
+msgid "Approve and start"
+msgstr ""
+
+msgid "Complete"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Stability studies according to approved stability protocols"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "Protocol number"
+msgstr ""
+
+msgid "Study title"
+msgstr ""
+
+msgid "Product name"
+msgstr ""
+
+msgid "Lot / batch number(s)"
+msgstr ""
+
+msgid "Study start date (T0)"
+msgstr ""
+
+msgid "Next due date"
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Approve and start the study"
+msgstr ""
+
+msgid "Complete the study"
+msgstr ""
+
+msgid "Cancel the study"
+msgstr ""
+
+msgid "Approve the stability report"
+msgstr ""
+
+msgid "Sign the record"
+msgstr ""
+
+msgid "This action is not allowed"
+msgstr ""
+
+msgid "Please confirm that the electronic signature is the legally binding equivalent of your handwritten signature"
+msgstr ""
+
+msgid "A reason is required for cancellation"
+msgstr ""
+
+msgid "A conclusion is required to complete the study"
+msgstr ""
+
+msgid "You are temporarily locked out of signing because of repeated failed attempts. Please contact your lab manager."
+msgstr ""
+
+msgid "The password is not correct. The failed attempt has been logged."
+msgstr ""
+
+msgid "Signed electronically by ${name}"
+msgstr ""
+
+msgid "User ${user} has been unlocked"
+msgstr ""
+
+msgid "Due"
+msgstr ""
+
+msgid "Overdue"
+msgstr ""
+
+msgid "You are not allowed to pull samples"
+msgstr ""
+
+msgid "No time points selected"
+msgstr ""
+
+msgid "A reason is required to cancel time points"
+msgstr ""
+
+msgid "${count} time point(s) cancelled"
+msgstr ""
+
+msgid "Samples created: ${ids}"
+msgstr ""
+
+msgid "Sample type"
+msgstr ""
+
+msgid "Manufacturing date"
+msgstr ""
+
+msgid "Container closure system"
+msgstr ""
+
+msgid "Client"
+msgstr ""
+
+msgid "Requesting client contact"
+msgstr ""
+
+msgid "Pull window (± days)"
+msgstr ""
+
+msgid "Specification"
+msgstr ""
+
+msgid "Batch"
+msgstr ""
+
+msgid "Initial (all conditions)"
+msgstr ""
+
+msgid "Electronic signature"
+msgstr ""
+
+msgid "You are locked out of signing until ${date} because of repeated failed attempts."
+msgstr ""
+
+msgid "Signer"
+msgstr ""
+
+msgid "Meaning of signature"
+msgstr ""
+
+msgid "Conclusion"
+msgstr ""
+
+msgid "Summary of the stability data and the proposed shelf life / retest period. The conclusion is part of the signed record."
+msgstr ""
+
+msgid "Comment / reason"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Re-enter your login password to execute the signature."
+msgstr ""
+
+msgid "I understand that this electronic signature is the legally binding equivalent of my handwritten signature."
+msgstr ""
+
+msgid "Sign"
+msgstr ""
+
+msgid "The signature records your name, the date and time and the meaning of the signature. It is linked to the current content of the record by a SHA-256 fingerprint. Every attempt is written to the signature log; repeated failed attempts lock the signing for this user."
+msgstr ""
+
+msgid "← Back"
+msgstr ""
+
+msgid "Draft PDF"
+msgstr ""
+
+msgid "Print"
+msgstr ""
+
+msgid "Stability Study Report"
+msgstr ""
+
+msgid "Interim Stability Report"
+msgstr ""
+
+msgid "DRAFT – not approved. Only reports approved with an electronic signature are valid."
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Study information"
+msgstr ""
+
+msgid "Storage conditions"
+msgstr ""
+
+msgid "Storage condition"
+msgstr ""
+
+msgid "Study type"
+msgstr ""
+
+msgid "Time points (months)"
+msgstr ""
+
+msgid "Storage location / chamber"
+msgstr ""
+
+msgid "Pull schedule"
+msgstr ""
+
+msgid "Time point"
+msgstr ""
+
+msgid "Due date"
+msgstr ""
+
+msgid "Sample"
+msgstr ""
+
+msgid "Remarks"
+msgstr ""
+
+msgid "Results"
+msgstr ""
+
+msgid "No conclusion yet (study in progress)."
+msgstr ""
+
+msgid "Electronic signatures"
+msgstr ""
+
+msgid "This report was signed electronically. The electronic signatures are the legally binding equivalent of handwritten signatures."
+msgstr ""
+
+msgid "Test"
+msgstr ""
+
+msgid "Unit"
+msgstr ""
+
+msgid "n/a"
+msgstr ""
+
+msgid "* Result not yet verified."
+msgstr ""
+
+msgid "OOS: out of specification."
+msgstr ""
+
+msgid "No electronic signatures"
+msgstr ""
+
+msgid "Signed by"
+msgstr ""
+
+msgid "Date and time"
+msgstr ""
+
+msgid "Meaning"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Record integrity"
+msgstr ""
+
+msgid "Unchanged since signing"
+msgstr ""
+
+msgid "Changed after signing"
+msgstr ""
+
+msgid "Report preview"
+msgstr ""
+
+msgid "Stability protocol"
+msgstr ""
+
+msgid "Tests"
+msgstr ""
+
+msgid "Keyword"
+msgstr ""
+
+msgid "The pull schedule is generated when the study is approved with an electronic signature."
+msgstr ""
+
+msgid "Pull window"
+msgstr ""
+
+msgid "Pull selected time points"
+msgstr ""
+
+msgid "Cancel selected time points"
+msgstr ""
+
+msgid "Approved reports"
+msgstr ""
+
+msgid "Report"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Approved by"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Final"
+msgstr ""
+
+msgid "Interim"
+msgstr ""
+
+msgid "Remarks (required to cancel time points)"
+msgstr ""
+
+msgid "Electronic signature log"
+msgstr ""
+
+msgid "All signature attempts, successful or not (latest 500 entries)."
+msgstr ""
+
+msgid "Locked users"
+msgstr ""
+
+msgid "Unlock"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Outcome"
+msgstr ""
+
+msgid "Record"
+msgstr ""
+
+msgid "Signed"
+msgstr ""
+
+msgid "Wrong password"
+msgstr ""
+
+msgid "Locked"
+msgstr ""
+
+msgid "Time points must be a comma separated list of months, e.g. '0, 3, 6, 9, 12'"
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+msgid "Storage conditions & tests"
+msgstr ""
+
+msgid "Number of the approved stability protocol"
+msgstr ""
+
+msgid "Description / objective"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "The stability samples are registered for the client of this contact"
+msgstr ""
+
+msgid "Due dates of the time points are calculated from this date"
+msgstr ""
+
+msgid "Allowed deviation from the due date of a time point"
+msgstr ""
+
+msgid "Sample type of the stability samples (e.g. dosage form)"
+msgstr ""
+
+msgid "Primary packaging, e.g. 'HDPE bottle 30 count'"
+msgstr ""
+
+msgid "One line per storage condition. Time points are given in months, e.g. '0, 3, 6, 9, 12'. The initial time point (0) is pulled only once for all conditions."
+msgstr ""
+
+msgid "Analyses that are performed at every time point"
+msgstr ""
+
+msgid "Acceptance criteria applied to the stability samples"
+msgstr ""
+
+msgid "At least one storage condition is required"
+msgstr ""
+
+msgid "Storage conditions must be unique"
+msgstr ""
+
+msgid "&larr; Back"
+msgstr ""
+
+msgid "DRAFT &ndash; not approved. Only reports approved with an electronic signature are valid."
+msgstr ""
+
+msgid "Study completed"
+msgstr ""
+
+msgid "Study cancelled"
+msgstr ""
+
+msgid "The study can not be completed before the results of all pulled samples are verified: ${ids}"
+msgstr ""
+

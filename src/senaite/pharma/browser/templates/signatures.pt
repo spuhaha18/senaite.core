@@ -1,0 +1,36 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      metal:use-macro="here/main_template/macros/master"
+      i18n:domain="senaite.pharma">
+  <head>
+    <metal:block fill-slot="senaite_legacy_resources"></metal:block>
+  </head>
+  <body>
+
+    <metal:title fill-slot="content-title">
+      <h1>
+        <span i18n:translate="">Electronic signatures</span>:
+        <span tal:replace="context/Title"/>
+      </h1>
+    </metal:title>
+
+    <metal:description fill-slot="content-description">
+      <p>
+        <a tal:attributes="href context/absolute_url"
+           i18n:translate="">&larr; Back</a>
+      </p>
+    </metal:description>
+
+    <metal:core fill-slot="content-core">
+      <div tal:define="signatures view/get_signatures">
+        <metal:signatures
+            use-macro="context/@@stability_macros/macros/signatures"/>
+        <a class="btn btn-primary btn-sm" tal:condition="view/can_sign"
+           tal:attributes="href string:${context/absolute_url}/esign?action="
+           i18n:translate="">Sign</a>
+      </div>
+    </metal:core>
+  </body>
+</html>

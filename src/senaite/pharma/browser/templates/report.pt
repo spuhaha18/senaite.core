@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      i18n:domain="senaite.pharma"
+      tal:define="final view/is_final;
+                  schedule view/get_schedule;
+                  base_url context/absolute_url;">
+<head>
+  <meta charset="utf-8"/>
+  <title tal:content="string:${context/getProtocolID} - ${context/Title}"></title>
+  <style>
+    @page {
+      size: A4 landscape;
+      margin: 18mm 14mm 18mm 14mm;
+      @top-left { content: string(lab); font-size: 8pt; color: #555; }
+      @top-right { content: string(docid); font-size: 8pt; color: #555; }
+      @bottom-right { content: counter(page) " / " counter(pages); font-size: 8pt; color: #555; }
+      @bottom-left { content: string(printed); font-size: 8pt; color: #555; }
+    }
+    body {
+      font-family: "Noto Sans CJK KR", "Noto Sans KR", "NanumGothic",
+                   "Malgun Gothic", "WenQuanYi Zen Hei", "DejaVu Sans",
+                   sans-serif;
+      font-size: 9pt; color: #222; margin: 0;
+    }
+    .screen-toolbar { padding: 10px; background: #f1f3f5; border-bottom: 1px solid #ccc; }
+    .screen-toolbar a { margin-right: 12px; }
+    .page { padding: 10px 16px; }
+    /* Running header/footer values: the elements need a box for
+       string-set, so they are moved out of sight instead of hidden */
+    .running { position: absolute; left: -10000px; top: 0; }
+    .running-lab { string-set: lab content(); }
+    .running-docid { string-set: docid content(); }
+    .running-printed { string-set: printed content(); }
+    h1 { font-size: 16pt; margin: 0 0 4px 0; }
+    h2 { font-size: 12pt; margin: 18px 0 6px 0; border-bottom: 1px solid #888; padding-bottom: 2px; }
+    h4 { font-size: 10pt; margin: 12px 0 4px 0; page-break-after: avoid; }
+    .subtitle { color: #555; margin-bottom: 10px; }
+    .watermark { color: #c0392b; font-weight: bold; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 8px; }
+    th, td { border: 1px solid #999; padding: 3px 5px; vertical-align: top; }
+    thead th, th.label { background: #eef1f4; text-align: left; }
+    .info-table th { width: 22%; }
+    .results-table td, .results-table th { text-align: center; }
+    .results-table td:first-child, .results-table th:first-child { text-align: left; }
+    .results-table tr { page-break-inside: avoid; }
+    .oos { color: #c0392b; font-weight: bold; }
+    sup { line-height: 0; }
+    .text-secondary, small { color: #666; }
+    .text-success { color: #1e7e34; }
+    .text-danger { color: #c0392b; }
+    .text-center { text-align: center; }
+    .small { font-size: 8pt; }
+    .conclusion { white-space: pre-wrap; border: 1px solid #999; padding: 6px; }
+    @media print { .screen-toolbar { display: none; } }
+  </style>
+</head>
+<body>
+
+  <div class="screen-toolbar" tal:condition="not:view/for_pdf">
+    <a tal:attributes="href base_url" i18n:translate="">&larr; Back</a>
+    <a tal:attributes="href string:${base_url}/stability_report_pdf"
+       i18n:translate="">Draft PDF</a>
+    <a href="javascript:window.print()" i18n:translate="">Print</a>
+  </div>
+
+  <div class="page">
+    <span class="running running-lab" tal:content="view/get_laboratory_name"></span>
+    <span class="running running-docid"
+          tal:content="string:${context/getProtocolID} / ${context/getId}"></span>
+    <span class="running running-printed" tal:content="view/get_print_date"></span>
+
+    <h1>
+      <span tal:condition="final" i18n:translate="">Stability Study Report</span>
+      <span tal:condition="not:final" i18n:translate="">Interim Stability Report</span>
+    </h1>
+    <p class="watermark" tal:condition="not:view/approved" i18n:translate="">
+      DRAFT &ndash; not approved. Only reports approved with an electronic
+      signature are valid.
+    </p>
+    <div class="subtitle">
+      <strong tal:content="context/Title"></strong> &middot;
+      <span tal:replace="view/get_laboratory_name"/> &middot;
+      <span i18n:translate="">Status</span>:
+      <span tal:replace="view/get_state_title"/>
+    </div>
+
+    <!-- 1. Study information -->
+    <h2>1. <span i18n:translate="">Study information</span></h2>
+    <table class="info-table">
+      <tr tal:repeat="row view/get_protocol">
+        <th class="label" tal:content="python:row[0]"></th>
+        <td tal:content="python:row[1]"></td>
+      </tr>
+    </table>
+    <p tal:condition="context/Description" tal:content="context/Description"></p>
+
+    <!-- 2. Storage conditions and tests -->
+    <h2>2. <span i18n:translate="">Storage conditions</span></h2>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th i18n:translate="">Storage condition</th>
+          <th i18n:translate="">Study type</th>
+          <th i18n:translate="">Time points (months)</th>
+          <th i18n:translate="">Storage location / chamber</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr tal:repeat="condition view/get_conditions">
+          <td tal:content="repeat/condition/number"></td>
+          <td tal:content="condition/condition"></td>
+          <td tal:content="condition/study_type_title"></td>
+          <td tal:content="condition/months_label"></td>
+          <td tal:content="condition/storage|nothing"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- 3. Pull schedule -->
+    <h2>3. <span i18n:translate="">Pull schedule</span></h2>
+    <table>
+      <thead>
+        <tr>
+          <th i18n:translate="">Time point</th>
+          <th i18n:translate="">Storage condition</th>
+          <th i18n:translate="">Due date</th>
+          <th i18n:translate="">Pulled</th>
+          <th i18n:translate="">Sample</th>
+          <th i18n:translate="">Status</th>
+          <th i18n:translate="">Remarks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr tal:repeat="entry schedule">
+          <td tal:content="entry/label"></td>
+          <td tal:content="entry/condition_title"></td>
+          <td tal:content="entry/due_date"></td>
+          <td tal:content="python:view.get_pull_date(entry)"></td>
+          <td tal:content="entry/sample_id"></td>
+          <td tal:content="entry/status_title"></td>
+          <td tal:content="entry/remarks"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- 4. Results -->
+    <h2>4. <span i18n:translate="">Results</span></h2>
+    <tal:results define="matrix view/get_results_matrix">
+      <metal:results use-macro="context/@@stability_macros/macros/results"/>
+    </tal:results>
+
+    <!-- 5. Conclusion -->
+    <h2>5. <span i18n:translate="">Conclusion</span></h2>
+    <div class="conclusion" tal:content="context/getConclusion"
+         tal:condition="context/getConclusion"></div>
+    <p class="text-secondary" tal:condition="not:context/getConclusion"
+       i18n:translate="">No conclusion yet (study in progress).</p>
+
+    <!-- 6. Signatures -->
+    <h2>6. <span i18n:translate="">Electronic signatures</span></h2>
+    <tal:signatures define="signatures view/get_report_signatures">
+      <metal:signatures
+          use-macro="context/@@stability_macros/macros/signatures"/>
+    </tal:signatures>
+    <p class="small text-secondary" i18n:translate="">
+      This report was signed electronically. The electronic signatures are
+      the legally binding equivalent of handwritten signatures.
+    </p>
+  </div>
+</body>
+</html>

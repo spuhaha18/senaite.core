@@ -1,0 +1,263 @@
+#
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-11-03 00:00+0900\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Domain: senaite.core-manual\n"
+"Language-Code: ko\n"
+"Language-Name: Korean\n"
+
+#. The variables used here are the same as used in the strftime formating.
+#. Supported are ${A}, ${a}, ${B}, ${b}, ${H}, ${I}, ${m}, ${d}, ${M}, ${p},
+#. ${S}, ${Y}, ${y}, ${Z}, each used as variable in the msgstr.
+#. For example: "${A} ${d}. ${B} ${Y}, ${H}:${M} ${Z}"
+#. In english speaking countries default is:
+#. ${b} ${d}, ${Y} ${I}:${M} ${p}
+#: ./TranslationServiceTool.py
+msgid "date_format_long"
+msgstr "${Y}-${m}-${d} ${H}:${M}"
+
+#. The variables used here are the same as used in the strftime formating.
+#. Supported are ${A}, ${a}, ${B}, ${b}, ${H}, ${I}, ${m}, ${d}, ${M}, ${p},
+#. ${S}, ${Y}, ${y}, ${Z}, each used as variable in the msgstr.
+#. For example: "${A} ${d}. ${B} ${Y}, ${H}:${M} ${Z}"
+#. In english speaking countries default is:
+#. ${b} ${d}, ${Y}
+#: ./TranslationServiceTool.py
+msgid "date_format_short"
+msgstr "${Y}-${m}-${d}"
+
+#. Date format used with the datepicker jqueryui plugin.
+#. Please only use 'dd', 'mm', 'yy', '-', '/', '.' in this string.
+#. Default: "mm/dd/yy"
+msgid "date_format_short_datepicker"
+msgstr "yy-mm-dd"
+
+#. The variables used here are the same as used in the strftime formating.
+#. Supported are ${A}, ${a}, ${B}, ${b}, ${H}, ${I}, ${m}, ${d}, ${M}, ${p},
+#. ${S}, ${Y}, ${y}, ${Z}, each used as variable in the msgstr.
+#. For example: "${A} ${d}. ${B} ${Y}, ${H}:${M} ${Z}"
+#. In english speaking countries default is:
+#. ${I}:${M} ${p}
+#: ./TranslationServiceTool.py
+msgid "time_format"
+msgstr "${H}:${M}"
+
+# bika.lims.bikalisting.js
+msgid "Display Columns"
+msgstr "표시 열"
+
+# senaite.app.listing: ButtonBar
+msgid "Clear selection"
+msgstr "선택 해제"
+
+# senaite.app.listing: TableColumnConfig
+msgid "Configure Table Columns"
+msgstr "테이블 열 구성"
+
+# senaite.app.listing: TableColumnConfig
+msgid "Click to toggle the visibility or drag&drop to change the order"
+msgstr "클릭하여 표시 여부를 전환하거나 드래그 앤 드롭하여 순서를 변경합니다"
+
+# senaite.app.listing: Show more
+msgid "Show more"
+msgstr "더 보기"
+
+# senaite.app.listing: Export
+msgid "Export"
+msgstr "내보내기"
+
+# senaite.core.browser.modals.templates.create_worksheet.pt
+msgid "Select all"
+msgstr "모두 선택"
+
+msgid "Deselect all"
+msgstr "모두 선택 해제"
+
+# senaite.app.listing: Fetch transitions
+msgid "Fetch Transitions"
+msgstr "전이 가져오기"
+
+# senaite.app.listing: Reload
+msgid "Reload"
+msgstr "새로 고침"
+
+# senaite.app.listing: Configuration
+msgid "Configuration"
+msgstr "구성"
+
+# senaite.app.listing: Reset columns
+msgid "Reset columns"
+msgstr "열 초기화"
+
+# senaite.app.listing: Reset-columns button tooltip
+msgid "Reset column visibility and order to the defaults"
+msgstr "열 표시 여부와 순서를 기본값으로 초기화"
+
+# senaite.app.listing: Disable auto fetch transitions
+msgid "Disable auto fetch transitions"
+msgstr "전이 자동 가져오기 비활성화"
+
+# senaite.core: Sidebar search input placeholder
+msgid "Search..."
+msgstr "검색..."
+
+# senaite.core: Sidebar loading state
+msgid "Loading navigation..."
+msgstr "탐색 메뉴 불러오는 중..."
+
+# senaite.app.listing: Saved filter presets — toggle title + menu header
+msgid "Saved filters"
+msgstr "저장된 필터"
+
+# senaite.app.listing: Saved filter presets — menu subtitle
+msgid "per listing"
+msgstr "목록별"
+
+# senaite.app.listing: Saved filter presets — empty state
+msgid "No saved filters yet."
+msgstr "저장된 필터가 없습니다."
+
+# senaite.app.listing: Saved filter presets — footer button to save the
+# current view
+msgid "Save current view"
+msgstr "현재 보기 저장"
+
+# senaite.app.listing: Saved filter presets — inline editor placeholder
+msgid "Filter name"
+msgstr "필터 이름"
+
+# senaite.app.listing: Saved filter presets — default name when saving
+msgid "My filter"
+msgstr "내 필터"
+
+# senaite.app.listing: Saved filter presets — row action tooltip
+msgid "Rename filter"
+msgstr "필터 이름 변경"
+
+# senaite.app.listing: Saved filter presets — row action tooltip
+msgid "Delete filter"
+msgstr "필터 삭제"
+
+# senaite.app.listing: Saved filter presets — star action tooltip
+msgid "Auto-apply on open"
+msgstr "열 때 자동 적용"
+
+# senaite.app.listing: Saved filter presets — star action tooltip when active
+msgid "Stop auto-applying"
+msgstr "자동 적용 중지"
+
+# senaite.app.listing: Saved filter presets — micro-tag on the default preset
+msgid "auto"
+msgstr "자동"
+
+# senaite.app.listing: Saved filter presets — dirty indicator on the applied
+# preset
+msgid "modified"
+msgstr "수정됨"
+
+# senaite.app.listing: Saved filter presets — apply button tooltip
+msgid "Apply this filter"
+msgstr "이 필터 적용"
+
+# senaite.app.listing: Saved filter presets — release button tooltip on the
+# applied preset
+msgid "Click to release this filter"
+msgstr "클릭하여 이 필터 해제"
+
+# senaite.app.listing: Saved filter presets — Update preset action tooltip
+msgid "Update preset with current view"
+msgstr "현재 보기로 프리셋 업데이트"
+
+# senaite.app.listing: Saved filter presets — Revert action tooltip
+msgid "Discard edits and restore preset"
+msgstr "변경 사항을 취소하고 프리셋 복원"
+
+# senaite.app.listing: Saved filter presets — dirty tag hover tooltip
+msgid "Current view differs from saved"
+msgstr "현재 보기가 저장된 내용과 다릅니다"
+
+# senaite.app.listing: Column header — sort arrow tooltip / aria-label
+msgid "Sort ascending"
+msgstr "오름차순 정렬"
+
+# senaite.app.listing: Column header — sort arrow tooltip / aria-label
+msgid "Sort descending"
+msgstr "내림차순 정렬"
+
+# senaite.app.listing: Search box — undo / reset-view button tooltip
+msgid "Reset view"
+msgstr "보기 초기화"
+
+# senaite.app.listing: Search box — undo button tooltip when only clearing
+# search
+msgid "Clear search"
+msgstr "검색어 지우기"
+
+# senaite.app.listing: Column-filter row — searchable-select placeholder
+msgid "Type to filter..."
+msgstr "입력하여 필터링..."
+
+# senaite.app.listing: Column-filter row — text-input placeholder
+msgid "Filter..."
+msgstr "필터..."
+
+# senaite.app.listing: Column-filter row — boolean select placeholder
+msgid "-- Select --"
+msgstr "-- 선택 --"
+
+# senaite.app.listing: Column-filter row — clear button tooltip
+msgid "Clear filter"
+msgstr "필터 지우기"
+
+# senaite.app.listing: Column config — trigger button label
+msgid "Configure"
+msgstr "구성"
+
+# senaite.app.listing: Column config — search input placeholder
+msgid "Search columns…"
+msgstr "열 검색…"
+
+# senaite.app.listing: Column config — visible-section header
+msgid "Visible"
+msgstr "표시"
+
+# senaite.app.listing: Column config — bulk action button
+msgid "Hide all"
+msgstr "모두 숨기기"
+
+# senaite.app.listing: Column config — counter title attribute
+msgid "Visible / total columns"
+msgstr "표시 열 / 전체 열"
+
+# senaite.app.listing: Column config — drag handle tooltip / aria-label
+msgid "Drag to reorder"
+msgstr "드래그하여 순서 변경"
+
+# senaite.app.listing: Column config — eye-slash button tooltip / aria-label
+msgid "Hide this column"
+msgstr "이 열 숨기기"
+
+# senaite.app.listing: Column config — plus button tooltip / aria-label
+msgid "Show this column"
+msgstr "이 열 표시"
+
+# senaite.app.listing: Column config — reset link tooltip
+msgid "Reset to default columns and order"
+msgstr "기본 열 및 순서로 초기화"
+
+# senaite.app.listing: Column config — empty state for visible section with
+# search
+msgid "No matches in visible columns."
+msgstr "표시된 열에 일치 항목이 없습니다."
+
+# senaite.app.listing: Column config — empty state when no columns are visible
+msgid "All columns are hidden."
+msgstr "모든 열이 숨겨져 있습니다."
+
+# senaite.app.listing: Column config — empty state for hidden section with
+# search
+msgid "No matches in hidden columns."
+msgstr "숨겨진 열에 일치 항목이 없습니다."

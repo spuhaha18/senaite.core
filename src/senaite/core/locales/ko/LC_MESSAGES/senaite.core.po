@@ -13425,3 +13425,355 @@ msgstr "{} (만료됨)"
 #: bika/lims/controlpanel/bika_instruments.py:173
 msgid "{} weeks and {} day(s)"
 msgstr "{}주 {}일"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid ""
+"A database conflict error occurred during transition '{}' on '{}'. Please "
+"try again."
+msgstr "'{}' 전이를 '{}'에 수행하는 중 데이터베이스 충돌 오류가 발생했습니다. 다시 시도하십시오."
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Active ajax transitions"
+msgstr "활성 Ajax 전이"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "An unkown error occurred during transition '{}' on '{}': {}"
+msgstr "'{}' 전이를 '{}'에 수행하는 중 알 수 없는 오류가 발생했습니다: {}"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Configuration for listings"
+msgstr "목록 설정"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Enable Ajax Transitions"
+msgstr "Ajax 전이 사용"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Enable sequential ajax workflow transitions"
+msgstr "순차 Ajax 워크플로 전이 사용"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Listings"
+msgstr "목록"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "SENAITE.APP.LISTING"
+msgstr "SENAITE.APP.LISTING"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Transitions that are processed sequentially via ajax"
+msgstr "Ajax를 통해 순차적으로 처리되는 전이"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "SENAITE.APP.SPOTLIGHT"
+msgstr "SENAITE.APP.SPOTLIGHT"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Active templates"
+msgstr "활성 템플릿"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Allow PDF download"
+msgstr "PDF 다운로드 허용"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Allow PDF email share"
+msgstr "PDF 이메일 공유 허용"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Allow direct download of the generated report"
+msgstr "생성된 보고서의 직접 다운로드를 허용합니다"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Allow to share the generated PDF directly via email"
+msgstr "생성된 PDF를 이메일로 직접 공유하도록 허용합니다"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Analysis results relate only to the samples tested."
+msgstr "분석 결과는 시험한 시료에만 해당합니다."
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Attachment for"
+msgstr "첨부파일 대상:"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Attachments for ${DYNAMIC_CONTENT}"
+msgstr "${DYNAMIC_CONTENT}의 첨부파일"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Attachments per Row"
+msgstr "행당 첨부파일 수"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Available Templates"
+msgstr "사용 가능한 템플릿"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Default Orientation"
+msgstr "기본 방향"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Default Paper Format"
+msgstr "기본 용지 형식"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Default Template"
+msgstr "기본 템플릿"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Developer Mode"
+msgstr "개발자 모드"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Download the generated PDF to your computer"
+msgstr "생성된 PDF를 컴퓨터로 다운로드합니다"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Failed to send Email"
+msgstr "이메일 발송 실패"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Filename:"
+msgstr "파일 이름:"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Footer Text"
+msgstr "바닥글 텍스트"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Generated reports for: {}, "
+msgstr "생성된 보고서 대상: {}, "
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "HTML to PDF report engine for SENAITE"
+msgstr "SENAITE용 HTML-PDF 보고서 엔진"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Impress Settings"
+msgstr "Impress 설정"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Initially loaded orientation"
+msgstr "처음 로드되는 방향"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Initially loaded paper format"
+msgstr "처음 로드되는 용지 형식"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Initially loaded report template"
+msgstr "처음 로드되는 보고서 템플릿"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid ""
+"Methods included in the ${accreditation_body} schedule of Accreditation for "
+"this Laboratory. Analysis remarks are not accredited"
+msgstr "이 실험실에 대한 ${accreditation_body} 인정 범위에 포함된 시험법입니다. 분석 비고는 인정 대상이 아닙니다"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Not invoiced"
+msgstr "청구되지 않음"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Number of attachments rendered within one row per Analysis Request"
+msgstr "시험 의뢰당 한 행에 표시되는 첨부파일 수"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "PDF attachment is missing"
+msgstr "PDF 첨부파일이 없습니다"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Please choose the templates that can be selected"
+msgstr "선택 가능한 템플릿을 고르십시오"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Provisional report"
+msgstr "잠정 보고서"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Published by"
+msgstr "발행자"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Range"
+msgstr "범위"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Reload after reorder"
+msgstr "순서 변경 후 다시 로드"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Reload report automatically when items order changed"
+msgstr "항목 순서가 변경되면 보고서를 자동으로 다시 로드합니다"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Report Options"
+msgstr "보고서 옵션"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Report Settings"
+msgstr "보고서 설정"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Result out of client specified range."
+msgstr "결과가 고객사 지정 범위를 벗어났습니다."
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Returns the raw HTML in the report preview."
+msgstr "보고서 미리보기에서 원시 HTML을 반환합니다."
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "SENAITE IMPRESS"
+msgstr "SENAITE IMPRESS"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "SENAITE IMPRESS Settings"
+msgstr "SENAITE IMPRESS 설정"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Share PDF via email"
+msgstr "PDF 이메일로 공유"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Show Sample Remarks"
+msgstr "시료 비고 표시"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Store Multi-Report PDFs Individually"
+msgstr "다중 보고서 PDF 개별 저장"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid ""
+"Store generated multi-report PDFs individually. Turn off to store the multi-"
+"report PDF only for the primary item of the report"
+msgstr "생성된 다중 보고서 PDF를 개별적으로 저장합니다. 끄면 다중 보고서 PDF를 보고서의 기본 항목에만 저장합니다"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Summary"
+msgstr "요약"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Supervisor"
+msgstr "감독자"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Test results are at a ${lab_confidence}% confidence level"
+msgstr "시험 결과는 ${lab_confidence}% 신뢰 수준입니다"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid ""
+"The footer text will be rendered on every PDF page and may contain arbitrary"
+" HTML"
+msgstr "바닥글 텍스트는 모든 PDF 페이지에 표시되며 임의의 HTML을 포함할 수 있습니다"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid ""
+"This Analysis Request has been invalidated due to erroneously published "
+"results"
+msgstr "이 시험 의뢰는 잘못 발행된 결과로 인해 무효화되었습니다"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "This Analysis request has been replaced by"
+msgstr "이 시험 의뢰는 다음으로 대체되었습니다:"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid ""
+"This document shall not be reproduced except in full, without the written "
+"approval of ${name_lab}"
+msgstr "${name_lab}의 서면 승인 없이 이 문서를 부분 복제할 수 없으며, 전체 복제만 허용됩니다"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Workflow State ID"
+msgstr "워크플로 상태 ID"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "An unkown error occurred: "
+msgstr "알 수 없는 오류가 발생했습니다: "
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Notification"
+msgstr "알림"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Oops, an error occured! 🙈"
+msgstr "앗, 오류가 발생했습니다! 🙈"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Oops, an error occurred! 🙈"
+msgstr "앗, 오류가 발생했습니다! 🙈"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "Selected items"
+msgstr "선택한 항목"
+
+#. Used by senaite.app.listing / senaite.app.spotlight / senaite.impress (not
+#. in senaite.core.pot)
+msgid "The server responded with the status "
+msgstr "서버 응답 상태: "

@@ -1,0 +1,51 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: senaite.app.listing\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Domain: senaite.app.listing\n"
+"Language-Code: ko\n"
+"Language-Name: Korean\n"
+
+msgid ""
+"A database conflict error occurred during transition '{}' on '{}'. Please "
+"try again."
+msgstr "'{}' 전이를 '{}'에 수행하는 중 데이터베이스 충돌 오류가 발생했습니다. 다시 시도하십시오."
+
+msgid "Active ajax transitions"
+msgstr "활성 Ajax 전이"
+
+msgid "All"
+msgstr "전체"
+
+msgid "An unkown error occurred during transition '{}' on '{}': {}"
+msgstr "'{}' 전이를 '{}'에 수행하는 중 알 수 없는 오류가 발생했습니다: {}"
+
+msgid "Configuration for listings"
+msgstr "목록 설정"
+
+msgid "Description"
+msgstr "설명"
+
+msgid "Enable Ajax Transitions"
+msgstr "Ajax 전이 사용"
+
+msgid "Enable sequential ajax workflow transitions"
+msgstr "순차 Ajax 워크플로 전이 사용"
+
+msgid "Listings"
+msgstr "목록"
+
+msgid "SENAITE.APP.LISTING"
+msgstr "SENAITE.APP.LISTING"
+
+msgid "Title"
+msgstr "제목"
+
+msgid "Transitions that are processed sequentially via ajax"
+msgstr "Ajax를 통해 순차적으로 처리되는 전이"

@@ -1,0 +1,260 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: senaite.impress\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Domain: senaite.impress\n"
+"Language-Code: ko\n"
+"Language-Name: Korean\n"
+
+msgid "Active templates"
+msgstr "활성 템플릿"
+
+msgid "Advanced"
+msgstr "고급"
+
+msgid "All"
+msgstr "전체"
+
+msgid "Allow PDF download"
+msgstr "PDF 다운로드 허용"
+
+msgid "Allow PDF email share"
+msgstr "PDF 이메일 공유 허용"
+
+msgid "Allow direct download of the generated report"
+msgstr "생성된 보고서의 직접 다운로드를 허용합니다"
+
+msgid "Allow to share the generated PDF directly via email"
+msgstr "생성된 PDF를 이메일로 직접 공유하도록 허용합니다"
+
+msgid "Analysis Report"
+msgstr "분석 보고서"
+
+msgid "Analysis results relate only to the samples tested."
+msgstr "분석 결과는 시험한 시료에만 해당합니다."
+
+msgid "Attachment for"
+msgstr "첨부파일 대상:"
+
+msgid "Attachments for ${DYNAMIC_CONTENT}"
+msgstr "${DYNAMIC_CONTENT}의 첨부파일"
+
+msgid "Attachments per Row"
+msgstr "행당 첨부파일 수"
+
+msgid "Available Templates"
+msgstr "사용 가능한 템플릿"
+
+msgid "Batch ID"
+msgstr "배치 ID"
+
+msgid "Batch Labels"
+msgstr "배치 라벨"
+
+msgid "Client"
+msgstr "고객사"
+
+msgid "Client Batch ID"
+msgstr "고객사 배치 ID"
+
+msgid "Client ID"
+msgstr "고객사 ID"
+
+msgid "Client SID"
+msgstr "고객사 SID"
+
+msgid "Contact"
+msgstr "담당자"
+
+msgid "Date Published"
+msgstr "발행 일시"
+
+msgid "Date Received"
+msgstr "접수 일시"
+
+msgid "Date Sampled"
+msgstr "채취 일시"
+
+msgid "Date Verified"
+msgstr "검증 일시"
+
+msgid "Default Orientation"
+msgstr "기본 방향"
+
+msgid "Default Paper Format"
+msgstr "기본 용지 형식"
+
+msgid "Default Template"
+msgstr "기본 템플릿"
+
+msgid "Developer Mode"
+msgstr "개발자 모드"
+
+msgid "Download the generated PDF to your computer"
+msgstr "생성된 PDF를 컴퓨터로 다운로드합니다"
+
+msgid "Email sent"
+msgstr "이메일 발송됨"
+
+msgid "Failed to send Email"
+msgstr "이메일 발송 실패"
+
+msgid "Filename:"
+msgstr "파일 이름:"
+
+msgid "Footer Text"
+msgstr "바닥글 텍스트"
+
+msgid "Generated reports for: {}, "
+msgstr "생성된 보고서 대상: {}, "
+
+msgid "HTML to PDF report engine for SENAITE"
+msgstr "SENAITE용 HTML-PDF 보고서 엔진"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Impress Settings"
+msgstr "Impress 설정"
+
+msgid "Initially loaded orientation"
+msgstr "처음 로드되는 방향"
+
+msgid "Initially loaded paper format"
+msgstr "처음 로드되는 용지 형식"
+
+msgid "Initially loaded report template"
+msgstr "처음 로드되는 보고서 템플릿"
+
+msgid ""
+"Methods included in the ${accreditation_body} schedule of Accreditation for "
+"this Laboratory. Analysis remarks are not accredited"
+msgstr "이 실험실에 대한 ${accreditation_body} 인정 범위에 포함된 시험법입니다. 분석 비고는 인정 대상이 아닙니다"
+
+msgid "Not invoiced"
+msgstr "청구되지 않음"
+
+msgid "Number of attachments rendered within one row per Analysis Request"
+msgstr "시험 의뢰당 한 행에 표시되는 첨부파일 수"
+
+msgid "PDF attachment is missing"
+msgstr "PDF 첨부파일이 없습니다"
+
+msgid "Please choose the templates that can be selected"
+msgstr "선택 가능한 템플릿을 고르십시오"
+
+msgid "Provisional report"
+msgstr "잠정 보고서"
+
+msgid "Published by"
+msgstr "발행자"
+
+msgid "Range"
+msgstr "범위"
+
+msgid "Registered"
+msgstr "등록됨"
+
+msgid "Reload after reorder"
+msgstr "순서 변경 후 다시 로드"
+
+msgid "Reload report automatically when items order changed"
+msgstr "항목 순서가 변경되면 보고서를 자동으로 다시 로드합니다"
+
+msgid "Report Options"
+msgstr "보고서 옵션"
+
+msgid "Report Settings"
+msgstr "보고서 설정"
+
+msgid "Responsibles"
+msgstr "책임자"
+
+msgid "Result"
+msgstr "결과"
+
+msgid "Result out of client specified range."
+msgstr "결과가 고객사 지정 범위를 벗어났습니다."
+
+msgid "Results"
+msgstr "결과"
+
+msgid "Returns the raw HTML in the report preview."
+msgstr "보고서 미리보기에서 원시 HTML을 반환합니다."
+
+msgid "SENAITE IMPRESS"
+msgstr "SENAITE IMPRESS"
+
+msgid "SENAITE IMPRESS Settings"
+msgstr "SENAITE IMPRESS 설정"
+
+msgid "Sample ID"
+msgstr "시료 ID"
+
+msgid "Sample Point"
+msgstr "채취 지점"
+
+msgid "Sample Type"
+msgstr "시료 유형"
+
+msgid "Share PDF via email"
+msgstr "PDF 이메일로 공유"
+
+msgid "Show Sample Remarks"
+msgstr "시료 비고 표시"
+
+msgid "Specification"
+msgstr "규격"
+
+msgid "Store Multi-Report PDFs Individually"
+msgstr "다중 보고서 PDF 개별 저장"
+
+msgid ""
+"Store generated multi-report PDFs individually. Turn off to store the multi-"
+"report PDF only for the primary item of the report"
+msgstr "생성된 다중 보고서 PDF를 개별적으로 저장합니다. 끄면 다중 보고서 PDF를 보고서의 기본 항목에만 저장합니다"
+
+msgid "Summary"
+msgstr "요약"
+
+msgid "Supervisor"
+msgstr "감독자"
+
+msgid "Test results are at a ${lab_confidence}% confidence level"
+msgstr "시험 결과는 ${lab_confidence}% 신뢰 수준입니다"
+
+msgid ""
+"The footer text will be rendered on every PDF page and may contain arbitrary"
+" HTML"
+msgstr "바닥글 텍스트는 모든 PDF 페이지에 표시되며 임의의 HTML을 포함할 수 있습니다"
+
+msgid ""
+"This Analysis Request has been invalidated due to erroneously published "
+"results"
+msgstr "이 시험 의뢰는 잘못 발행된 결과로 인해 무효화되었습니다"
+
+msgid "This Analysis request has been replaced by"
+msgstr "이 시험 의뢰는 다음으로 대체되었습니다:"
+
+msgid ""
+"This document shall not be reproduced except in full, without the written "
+"approval of ${name_lab}"
+msgstr "${name_lab}의 서면 승인 없이 이 문서를 부분 복제할 수 없으며, 전체 복제만 허용됩니다"
+
+msgid "Title"
+msgstr "제목"
+
+msgid "Unit"
+msgstr "단위"
+
+msgid "Workflow State"
+msgstr "워크플로 상태"
+
+msgid "Workflow State ID"
+msgstr "워크플로 상태 ID"

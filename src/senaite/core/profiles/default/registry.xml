@@ -79,8 +79,14 @@
       </value_type>
     </field>
     <value>
+      <element>ko</element>
       <element>en</element>
     </value>
+  </record>
+
+  <!-- Default site language: Korean -->
+  <record name="plone.default_language" interface="plone.i18n.interfaces.ILanguageSchema" field="default_language">
+    <value>ko</value>
   </record>
 
   <!-- Use language cookie (required to display the language menu) -->
